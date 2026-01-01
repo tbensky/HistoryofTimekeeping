@@ -1,0 +1,1595 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 JAN 2026 09:12
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**hist_timekeeping.tex
+(./hist_timekeeping.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count271
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count272
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen144
+\Hy@linkcounter=\count273
+\Hy@pagecounter=\count274
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count275
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count276
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen145
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count277
+\Field@Width=\dimen146
+\Fld@charsize=\dimen147
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count278
+\c@Item=\count279
+\c@Hfootnote=\count280
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip51
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2025/01/10{} The CircuiTikz circuit drawing package version
+ 1.7.1
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen150
+\pgf@y=\dimen151
+\pgf@xa=\dimen152
+\pgf@ya=\dimen153
+\pgf@xb=\dimen154
+\pgf@yb=\dimen155
+\pgf@xc=\dimen156
+\pgf@yc=\dimen157
+\pgf@xd=\dimen158
+\pgf@yd=\dimen159
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count283
+\c@pgf@countb=\count284
+\c@pgf@countc=\count285
+\c@pgf@countd=\count286
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count287
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count288
+\pgfsyssoftpath@bigbuffer@items=\count289
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen160
+\pgfmath@count=\count290
+\pgfmath@box=\box53
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count291
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen161
+\pgf@picmaxx=\dimen162
+\pgf@picminy=\dimen163
+\pgf@picmaxy=\dimen164
+\pgf@pathminx=\dimen165
+\pgf@pathmaxx=\dimen166
+\pgf@pathminy=\dimen167
+\pgf@pathmaxy=\dimen168
+\pgf@xx=\dimen169
+\pgf@xy=\dimen170
+\pgf@yx=\dimen171
+\pgf@yy=\dimen172
+\pgf@zx=\dimen173
+\pgf@zy=\dimen174
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen175
+\pgf@path@lasty=\dimen176
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen177
+\pgf@shorten@start@additional=\dimen178
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count292
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen179
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen180
+\pgf@pt@y=\dimen181
+\pgf@pt@temp=\dimen182
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen183
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen184
+\pgf@sys@shading@range@num=\count293
+\pgf@shadingcount=\count294
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box57
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box58
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen185
+\pgf@nodesepend=\dimen186
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen187
+\pgffor@skip=\dimen188
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count295
+\pgfplotmarksize=\dimen189
+)
+\tikz@lastx=\dimen190
+\tikz@lasty=\dimen191
+\tikz@lastxsaved=\dimen192
+\tikz@lastysaved=\dimen193
+\tikz@lastmovetox=\dimen194
+\tikz@lastmovetoy=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count296
+\tikznumberofchildren=\count297
+\tikznumberofcurrentchild=\count298
+\tikz@fig@count=\count299
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count300
+\pgfmatrixcurrentcolumn=\count301
+\pgf@matrix@numberofcolumns=\count302
+)
+\tikz@expandcount=\count303
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen198
+\pgfarrowlength=\dimen199
+\pgfarrowwidth=\dimen256
+\pgfarrowlinewidth=\dimen257
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.co
+de.tex
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineart
+ransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen258
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvili
+near.code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen259
+\pgf@curvilinear@length@a=\dimen260
+\pgf@curvilinear@length@b=\dimen261
+\pgf@curvilinear@length@c=\dimen262
+\pgf@curvilinear@length@d=\dimen263
+)
+\pgf@arrows@the@rigidity=\dimen264
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfpu.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count304
+\pgf@circ@count@b=\count305
+\pgf@circ@count@c=\count306
+\pgf@circ@res@up=\dimen265
+\pgf@circ@res@down=\dimen266
+\pgf@circ@res@zero=\dimen267
+\pgf@circ@res@left=\dimen268
+\pgf@circ@res@right=\dimen269
+\pgf@circ@res@other=\dimen270
+\pgf@circ@res@step=\dimen271
+\pgf@circ@res@temp=\dimen272
+\pgf@circ@Rlen=\dimen273
+\pgf@circ@scaled@Rlen=\dimen274
+\pgfstartlinewidth=\dimen275
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box63
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count307
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.te
+x) (/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen276
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count308
+\float@exts=\toks30
+\float@box=\box64
+\@float@everytoks=\toks31
+\@floatcapt=\box65
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box66
+)
+No file hist_timekeeping.aux.
+\openout1 = `hist_timekeeping.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count310
+\scratchdimen=\dimen277
+\scratchbox=\box67
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen278
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 20.
+\@outlinefile=\write4
+\openout4 = `hist_timekeeping.out'.
+
+<clocks_hist.png, id=7, 411.4572pt x 301.8477pt>
+File: clocks_hist.png Graphic file (type png)
+<use clocks_hist.png>
+Package pdftex.def Info: clocks_hist.png  used on input line 40.
+(pdftex.def)             Requested size: 308.59213pt x 226.38521pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 46.
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.50 
+      <./clocks_hist.png>]
+<earth_orbit.png, id=27, 361.35pt x 217.7736pt>
+File: earth_orbit.png Graphic file (type png)
+<use earth_orbit.png>
+Package pdftex.def Info: earth_orbit.png  used on input line 61.
+(pdftex.def)             Requested size: 252.94327pt x 152.44046pt.
+
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.80 \end{enumerate}
+                    {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-ts1.enc} <./earth_orbit.png>]
+
+[3]
+
+LaTeX Warning: Reference `time_graph' on page 4 undefined on input line 108.
+
+
+LaTeX Warning: Reference `vandf' on page 4 undefined on input line 110.
+
+<vandf_ann.jpg, id=45, 1320.935pt x 1065.9825pt>
+File: vandf_ann.jpg Graphic file (type jpg)
+<use vandf_ann.jpg>
+Package pdftex.def Info: vandf_ann.jpg  used on input line 114.
+(pdftex.def)             Requested size: 396.28355pt x 319.79721pt.
+
+Underfull \hbox (badness 1163) in paragraph at lines 115--115
+[]\OT1/cmr/m/n/12 Figure 3: []A verge and fo-liot es-cape-ment. Video ver-sion 
+here []$\OT1/cmtt/m/n/12 https : / / youtu . be /
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4]
+
+LaTeX Warning: Reference `time_graph' on page 5 undefined on input line 143.
+
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.144 
+       <./vandf_ann.jpg>]
+
+LaTeX Warning: Reference `pendulum' on page 6 undefined on input line 147.
+
+<Images/pendulum.jpg, id=66, 626.34pt x 566.115pt>
+File: Images/pendulum.jpg Graphic file (type jpg)
+<use Images/pendulum.jpg>
+Package pdftex.def Info: Images/pendulum.jpg  used on input line 151.
+(pdftex.def)             Requested size: 187.90344pt x 169.8358pt.
+
+LaTeX Warning: Reference `pulley' on page 6 undefined on input line 169.
+
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.170 
+       <./Images/pendulum.jpg>]
+<Images/pulley.png, id=79, 357.335pt x 312.16624pt>
+File: Images/pulley.png Graphic file (type png)
+<use Images/pulley.png>
+Package pdftex.def Info: Images/pulley.png  used on input line 173.
+(pdftex.def)             Requested size: 178.66705pt x 156.08273pt.
+
+
+LaTeX Warning: Reference `pulley_escape' on page 7 undefined on input line 179.
+
+
+
+LaTeX Warning: Reference `pulley_escape' on page 7 undefined on input line 179.
+
+
+
+LaTeX Warning: Reference `pulley_escape' on page 7 undefined on input line 179.
+
+
+<Images/pulley_escape.png, id=80, 691.58376pt x 447.6725pt>
+File: Images/pulley_escape.png Graphic file (type png)
+<use Images/pulley_escape.png>
+Package pdftex.def Info: Images/pulley_escape.png  used on input line 183.
+(pdftex.def)             Requested size: 345.79103pt x 223.8357pt.
+
+LaTeX Warning: Reference `escape_mount' on page 7 undefined on input line 190.
+
+
+LaTeX Warning: Reference `swing' on page 7 undefined on input line 190.
+
+<Images/escape_mount.png, id=81, 215.80624pt x 610.28pt>
+File: Images/escape_mount.png Graphic file (type png)
+<use Images/escape_mount.png>
+Package pdftex.def Info: Images/escape_mount.png  used on input line 194.
+(pdftex.def)             Requested size: 64.74237pt x 183.0854pt.
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.198 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.198 \end{figure}
+                   <./Images/pulley.png> <./Images/pulley_escape.png>]
+<Images/swing.png, id=91, 401.5pt x 355.82938pt>
+File: Images/swing.png Graphic file (type png)
+<use Images/swing.png>
+Package pdftex.def Info: Images/swing.png  used on input line 204.
+(pdftex.def)             Requested size: 200.7495pt x 177.91425pt.
+
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.213 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.213 
+       <./Images/escape_mount.png> <./Images/swing.png>]
+
+LaTeX Warning: Reference `swing' on page 9 undefined on input line 216.
+
+
+
+[9]
+
+LaTeX Warning: Reference `time_graph' on page 10 undefined on input line 224.
+
+
+
+[10]
+
+[11]
+
+LaTeX Warning: Reference `time_graph' on page 12 undefined on input line 294.
+
+
+
+[12]
+
+[13]
+
+LaTeX Warning: Reference `time_graph_temp' on page 14 undefined on input line 3
+34.
+
+<clocks_hist_temp.png, id=141, 411.4572pt x 301.8477pt>
+File: clocks_hist_temp.png Graphic file (type png)
+<use clocks_hist_temp.png>
+Package pdftex.def Info: clocks_hist_temp.png  used on input line 338.
+(pdftex.def)             Requested size: 205.72809pt x 150.92348pt.
+
+LaTeX Warning: Reference `brass_and_steel' on page 14 undefined on input line 3
+50.
+
+<brass_and_steel.png, id=142, 474.77374pt x 485.815pt>
+File: brass_and_steel.png Graphic file (type png)
+<use brass_and_steel.png>
+Package pdftex.def Info: brass_and_steel.png  used on input line 354.
+(pdftex.def)             Requested size: 142.43321pt x 145.74562pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `grid_iron_pend' on page 14 undefined on input line 36
+2.
+
+<gridiron_pendulum.png, id=143, 824.07875pt x 468.75125pt>
+File: gridiron_pendulum.png Graphic file (type png)
+<use gridiron_pendulum.png>
+Package pdftex.def Info: gridiron_pendulum.png  used on input line 366.
+(pdftex.def)             Requested size: 412.03836pt x 234.37505pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `merc_pend' on page 14 undefined on input line 374.
+
+
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.375 
+       <./clocks_hist_temp.png>]
+<Mercury_pendulum.png, id=151, 281.05pt x 850.17625pt>
+File: Mercury_pendulum.png Graphic file (type png)
+<use Mercury_pendulum.png>
+Package pdftex.def Info: Mercury_pendulum.png  used on input line 378.
+(pdftex.def)             Requested size: 70.26231pt x 212.54353pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.386 
+       <./brass_and_steel.png>]
+
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.388 \clearpage
+                
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.388 \clearpage
+                 <./gridiron_pendulum.png> <./Mercury_pendulum.png>]
+
+LaTeX Warning: Reference `time_graph' on page 17 undefined on input line 391.
+
+<Figs/7seg.png, id=168, 443.6575pt x 596.2275pt>
+File: Figs/7seg.png Graphic file (type png)
+<use Figs/7seg.png>
+Package pdftex.def Info: Figs/7seg.png  used on input line 405.
+(pdftex.def)             Requested size: 88.72992pt x 119.24338pt.
+
+LaTeX Warning: Reference `rc_circuit' on page 17 undefined on input line 415.
+
+<Figs/rc_circuit01.jpg, id=169, 1119.18124pt x 808.01875pt>
+File: Figs/rc_circuit01.jpg Graphic file (type jpg)
+<use Figs/rc_circuit01.jpg>
+Package pdftex.def Info: Figs/rc_circuit01.jpg  used on input line 419.
+(pdftex.def)             Requested size: 279.79462pt x 202.0042pt.
+
+
+[17
+
+ <./Figs/7seg.png>]
+
+LaTeX Warning: Reference `rc_circuit' on page 18 undefined on input line 425.
+
+<Figs/rc_graph.png, id=179, 700.6175pt x 447.6725pt>
+File: Figs/rc_graph.png Graphic file (type png)
+<use Figs/rc_graph.png>
+Package pdftex.def Info: Figs/rc_graph.png  used on input line 430.
+(pdftex.def)             Requested size: 350.30789pt x 223.8357pt.
+
+
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.437 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.437 
+       <./Figs/rc_circuit01.jpg> <./Figs/rc_graph.png (PNG copy)>]
+<Figs/phet_rc_empty.png, id=186, 662.475pt x 505.89pt>
+File: Figs/phet_rc_empty.png Graphic file (type png)
+<use Figs/phet_rc_empty.png>
+Package pdftex.def Info: Figs/phet_rc_empty.png  used on input line 450.
+(pdftex.def)             Requested size: 264.9853pt x 202.3524pt.
+<Figs/phet_rc_full.png, id=187, 679.53876pt x 474.77374pt>
+File: Figs/phet_rc_full.png Graphic file (type png)
+<use Figs/phet_rc_full.png>
+Package pdftex.def Info: Figs/phet_rc_full.png  used on input line 459.
+(pdftex.def)             Requested size: 271.81068pt x 189.90613pt.
+
+
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.464 
+       <./Figs/phet_rc_empty.png>]
+
+LaTeX Warning: Reference `rc_discharge' on page 20 undefined on input line 465.
+
+
+<Figs/phet_rc_discharge01.png, id=196, 908.39375pt x 516.93124pt>
+File: Figs/phet_rc_discharge01.png Graphic file (type png)
+<use Figs/phet_rc_discharge01.png>
+Package pdftex.def Info: Figs/phet_rc_discharge01.png  used on input line 469.
+(pdftex.def)             Requested size: 363.35106pt x 206.76883pt.
+
+LaTeX Warning: Reference `full_cap' on page 20 undefined on input line 470.
+
+
+LaTeX Warning: Reference `full_cap' on page 20 undefined on input line 470.
+
+
+LaTeX Warning: Reference `rc_multiple' on page 20 undefined on input line 475.
+
+
+LaTeX Warning: Reference `rc_multiple' on page 20 undefined on input line 475.
+
+<Figs/rc_multiple.png, id=197, 718.685pt x 459.7175pt>
+File: Figs/rc_multiple.png Graphic file (type png)
+<use Figs/rc_multiple.png>
+Package pdftex.def Info: Figs/rc_multiple.png  used on input line 479.
+(pdftex.def)             Requested size: 251.54352pt x 160.90353pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.486 \begin{quote}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.486 \begin{quote}
+                    <./Figs/phet_rc_full.png> <./Figs/phet_rc_discharge01.png>]
+<Figs/relay/relay.png, id=206, 1151.30125pt x 613.29124pt>
+File: Figs/relay/relay.png Graphic file (type png)
+<use Figs/relay/relay.png>
+Package pdftex.def Info: Figs/relay/relay.png  used on input line 511.
+(pdftex.def)             Requested size: 287.82462pt x 153.32243pt.
+
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.516 N
+       ote that the switch (the gray line) is like a level that rotates abou...
+ <./Figs/rc_multiple.png (PNG copy)>]
+<Figs/neon_bulb.jpg, id=218, 807.015pt x 807.015pt>
+File: Figs/neon_bulb.jpg Graphic file (type jpg)
+<use Figs/neon_bulb.jpg>
+Package pdftex.def Info: Figs/neon_bulb.jpg  used on input line 529.
+(pdftex.def)             Requested size: 161.40013pt x 161.40013pt.
+
+
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.534 T
+       o use it, simply place it across a capacitor in an RC circuit. When t...
+ <./Figs/relay/relay.png>]
+
+[23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.537 \newpage
+               <./Figs/neon_bulb.jpg>]
+<Images/1switch.png, id=231, 600.2425pt x 369.38pt>
+File: Images/1switch.png Graphic file (type png)
+<use Images/1switch.png>
+Package pdftex.def Info: Images/1switch.png  used on input line 551.
+(pdftex.def)             Requested size: 180.07413pt x 110.81485pt.
+<Images/bulb_on.png, id=232, 650.43pt x 530.98375pt>
+File: Images/bulb_on.png Graphic file (type png)
+<use Images/bulb_on.png>
+Package pdftex.def Info: Images/bulb_on.png  used on input line 559.
+(pdftex.def)             Requested size: 195.1305pt x 159.29634pt.
+<Images/and.png, id=233, 695.59875pt x 375.4025pt>
+File: Images/and.png Graphic file (type png)
+<use Images/and.png>
+Package pdftex.def Info: Images/and.png  used on input line 568.
+(pdftex.def)             Requested size: 208.68123pt x 112.62161pt.
+
+
+[24
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.21})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.572 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.22})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.572 \end{figure}
+                   <./Images/1switch.png> <./Images/bulb_on.png>]
+<Images/or.png, id=244, 733.74126pt x 475.7775pt>
+File: Images/or.png Graphic file (type png)
+<use Images/or.png>
+Package pdftex.def Info: Images/or.png  used on input line 576.
+(pdftex.def)             Requested size: 220.12407pt x 142.73434pt.
+<Images/gates.jpg, id=245, 1204.5pt x 602.25pt>
+File: Images/gates.jpg Graphic file (type jpg)
+<use Images/gates.jpg>
+Package pdftex.def Info: Images/gates.jpg  used on input line 584.
+(pdftex.def)             Requested size: 301.12427pt x 150.56212pt.
+
+
+[25
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.23})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.589 E
+       ach gate has its own logic, and can certainly be used by themselves. ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.24})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.589 E
+       ach gate has its own logic, and can certainly be used by themselves. ...
+ <./Images/and.png> <./Images/or.png>]
+<Images/adder.png, id=255, 2890.8pt x 1039.885pt>
+File: Images/adder.png Graphic file (type png)
+<use Images/adder.png>
+Package pdftex.def Info: Images/adder.png  used on input line 592.
+(pdftex.def)             Requested size: 433.6013pt x 155.97601pt.
+<Figs/t_and_switch.jpg, id=256, 660.4675pt x 534.99875pt>
+File: Figs/t_and_switch.jpg Graphic file (type jpg)
+<use Figs/t_and_switch.jpg>
+Package pdftex.def Info: Figs/t_and_switch.jpg  used on input line 603.
+(pdftex.def)             Requested size: 165.11647pt x 133.74936pt.
+
+
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.25})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.608 H
+       ere the three terminals on the transistor roughly correspond like thi...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.26})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.608 H
+       ere the three terminals on the transistor roughly correspond like thi...
+ <./Images/gates.jpg> <./Images/adder.png>]
+<Figs/transistor.png, id=264, 202.7575pt x 327.2225pt>
+File: Figs/transistor.png Graphic file (type png)
+<use Figs/transistor.png>
+Package pdftex.def Info: Figs/transistor.png  used on input line 615.
+(pdftex.def)             Requested size: 101.3785pt x 163.61084pt.
+<Figs/and_trans.jpg, id=265, 1014.79124pt x 958.58125pt>
+File: Figs/and_trans.jpg Graphic file (type jpg)
+<use Figs/and_trans.jpg>
+Package pdftex.def Info: Figs/and_trans.jpg  used on input line 625.
+(pdftex.def)             Requested size: 202.95465pt x 191.71284pt.
+
+
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.630 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.630 
+       <./Figs/t_and_switch.jpg> <./Figs/transistor.png>]
+<Figs/555.png, id=274, 584.1825pt x 547.04375pt>
+File: Figs/555.png Graphic file (type png)
+<use Figs/555.png>
+Package pdftex.def Info: Figs/555.png  used on input line 648.
+(pdftex.def)             Requested size: 116.83443pt x 109.4068pt.
+
+
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.653 I
+       ts internals would look like this <./Figs/and_trans.jpg>]
+<Figs/555_internals.png, id=281, 803.0pt x 443.6575pt>
+File: Figs/555_internals.png Graphic file (type png)
+<use Figs/555_internals.png>
+Package pdftex.def Info: Figs/555_internals.png  used on input line 656.
+(pdftex.def)             Requested size: 481.80373pt x 266.19655pt.
+
+Overfull \hbox (4.82129pt too wide) in paragraph at lines 656--657
+ [] 
+ []
+
+<Figs/transistor_symbol.png, id=282, 1053.9375pt x 1284.8pt>
+File: Figs/transistor_symbol.png Graphic file (type png)
+<use Figs/transistor_symbol.png>
+Package pdftex.def Info: Figs/transistor_symbol.png  used on input line 664.
+(pdftex.def)             Requested size: 105.39992pt x 128.48752pt.
+
+
+[29
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.669 a
+       nd you can count dozens of them inside of the 555.   Here is an actua...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.669 a
+       nd you can count dozens of them inside of the 555.   Here is an actua...
+ <./Figs/555.png> <./Figs/555_internals.png>]
+<Figs/555_circuit01.png, id=291, 1927.2pt x 1084.05pt>
+File: Figs/555_circuit01.png Graphic file (type png)
+<use Figs/555_circuit01.png>
+Package pdftex.def Info: Figs/555_circuit01.png  used on input line 672.
+(pdftex.def)             Requested size: 481.79883pt x 271.01184pt.
+
+Overfull \hbox (4.81639pt too wide) in paragraph at lines 672--673
+ [] 
+ []
+
+
+
+[30
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.684 R
+       emember when assessing clocks we always have to compare one with anot...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.33})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.684 R
+       emember when assessing clocks we always have to compare one with anot...
+ <./Figs/transistor_symbol.png> <./Figs/555_circuit01.png>]
+<Figs/555_20min_periods.png, id=300, 433.62pt x 289.08pt>
+File: Figs/555_20min_periods.png Graphic file (type png)
+<use Figs/555_20min_periods.png>
+Package pdftex.def Info: Figs/555_20min_periods.png  used on input line 688.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+
+[31
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.34})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.708 
+       <./Figs/555_20min_periods.png>]
+
+[32]
+File: clocks_hist.png Graphic file (type png)
+<use clocks_hist.png>
+Package pdftex.def Info: clocks_hist.png  used on input line 721.
+(pdftex.def)             Requested size: 308.59213pt x 226.38521pt.
+
+
+LaTeX Warning: Reference `555_periods' on page 33 undefined on input line 736.
+
+
+
+[33
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.35})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.737 
+      ]
+
+LaTeX Warning: Reference `clock_hist_again' on page 34 undefined on input line 
+774.
+
+
+
+[34]
+<Images/xtal.png, id=326, 433.62pt x 455.7025pt>
+File: Images/xtal.png Graphic file (type png)
+<use Images/xtal.png>
+Package pdftex.def Info: Images/xtal.png  used on input line 779.
+(pdftex.def)             Requested size: 108.40472pt x 113.92534pt.
+
+
+LaTeX Warning: Reference `xtal_expt' on page 35 undefined on input line 785.
+
+<Images/xtal_expt.jpg, id=327, 1035.87pt x 835.12pt>
+File: Images/xtal_expt.jpg Graphic file (type jpg)
+<use Images/xtal_expt.jpg>
+Package pdftex.def Info: Images/xtal_expt.jpg  used on input line 789.
+(pdftex.def)             Requested size: 258.96686pt x 208.77948pt.
+
+
+[35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.36})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.794 
+       <./Images/xtal.png>]
+
+LaTeX Warning: Reference `xtal_expt' on page 36 undefined on input line 795.
+
+<Figs/xtal.png, id=335, 449.68pt x 289.08pt>
+File: Figs/xtal.png Graphic file (type png)
+<use Figs/xtal.png>
+Package pdftex.def Info: Figs/xtal.png  used on input line 801.
+(pdftex.def)             Requested size: 449.6789pt x 289.07928pt.
+
+
+[36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.37})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.806 
+       <./Images/xtal_expt.jpg>]
+
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.38})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.814 
+       <./Figs/xtal.png>]
+<Atomic/atom01.jpg, id=348, 537.00626pt x 250.9375pt>
+File: Atomic/atom01.jpg Graphic file (type jpg)
+<use Atomic/atom01.jpg>
+Package pdftex.def Info: Atomic/atom01.jpg  used on input line 825.
+(pdftex.def)             Requested size: 134.25124pt x 62.7342pt.
+<Atomic/atom02.jpg, id=349, 1454.43375pt x 325.215pt>
+File: Atomic/atom02.jpg Graphic file (type jpg)
+<use Atomic/atom02.jpg>
+Package pdftex.def Info: Atomic/atom02.jpg  used on input line 836.
+(pdftex.def)             Requested size: 363.60754pt x 81.30354pt.
+
+
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.39})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.841 \noindent
+                Note also that when the electron jumps, it is because it ``a...
+ <./Atomic/atom01.jpg>]
+<Atomic/atom03.jpg, id=358, 745.78625pt x 632.3625pt>
+File: Atomic/atom03.jpg Graphic file (type jpg)
+<use Atomic/atom03.jpg>
+Package pdftex.def Info: Atomic/atom03.jpg  used on input line 848.
+(pdftex.def)             Requested size: 186.4461pt x 158.09024pt.
+<Atomic/delta.jpg, id=359, 493.845pt x 226.8475pt>
+File: Atomic/delta.jpg Graphic file (type jpg)
+<use Atomic/delta.jpg>
+Package pdftex.def Info: Atomic/delta.jpg  used on input line 858.
+(pdftex.def)             Requested size: 123.46094pt x 56.71173pt.
+
+
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.40})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.863 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.863 
+       <./Atomic/atom02.jpg> <./Atomic/atom03.jpg>]
+
+[40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.42})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.865 
+       <./Atomic/delta.jpg>]
+<Images/AtomicClock/sequence.jpg, id=373, 1665.22125pt x 590.205pt>
+File: Images/AtomicClock/sequence.jpg Graphic file (type jpg)
+<use Images/AtomicClock/sequence.jpg>
+Package pdftex.def Info: Images/AtomicClock/sequence.jpg  used on input line 88
+4.
+(pdftex.def)             Requested size: 416.30429pt x 147.55089pt.
+<Images/AtomicClock/light_to_det.jpg, id=374, 1399.2275pt x 501.875pt>
+File: Images/AtomicClock/light_to_det.jpg Graphic file (type jpg)
+<use Images/AtomicClock/light_to_det.jpg>
+Package pdftex.def Info: Images/AtomicClock/light_to_det.jpg  used on input lin
+e 894.
+(pdftex.def)             Requested size: 349.80602pt x 125.46843pt.
+
+
+[41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.43})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.899 
+       <./Images/AtomicClock/sequence.jpg>]
+<Images/AtomicClock/light_into_rb.jpg, id=388, 1353.055pt x 493.845pt>
+File: Images/AtomicClock/light_into_rb.jpg Graphic file (type jpg)
+<use Images/AtomicClock/light_into_rb.jpg>
+Package pdftex.def Info: Images/AtomicClock/light_into_rb.jpg  used on input li
+ne 904.
+(pdftex.def)             Requested size: 338.26292pt x 123.46094pt.
+<Images/AtomicClock/side_level.jpg, id=389, 1475.5125pt x 644.4075pt>
+File: Images/AtomicClock/side_level.jpg Graphic file (type jpg)
+<use Images/AtomicClock/side_level.jpg>
+Package pdftex.def Info: Images/AtomicClock/side_level.jpg  used on input line 
+914.
+(pdftex.def)             Requested size: 368.87723pt x 161.10147pt.
+
+
+[42
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.44})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.921 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.45})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.921 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.46})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.921 
+       <./Images/AtomicClock/light_to_det.jpg> <./Images/AtomicClock/light_into
+_rb.jpg> <./Images/AtomicClock/side_level.jpg>]
+<Images/AtomicClock/microwaves.jpg, id=399, 1484.54625pt x 964.60374pt>
+File: Images/AtomicClock/microwaves.jpg Graphic file (type jpg)
+<use Images/AtomicClock/microwaves.jpg>
+Package pdftex.def Info: Images/AtomicClock/microwaves.jpg  used on input line 
+924.
+(pdftex.def)             Requested size: 371.13565pt x 241.15034pt.
+<Images/AtomicClock/feedback.jpg, id=400, 1498.59875pt x 1264.725pt>
+File: Images/AtomicClock/feedback.jpg Graphic file (type jpg)
+<use Images/AtomicClock/feedback.jpg>
+Package pdftex.def Info: Images/AtomicClock/feedback.jpg  used on input line 93
+8.
+(pdftex.def)             Requested size: 374.64877pt x 316.18048pt.
+
+
+[43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.47})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.943 
+       <./Images/AtomicClock/microwaves.jpg>]
+
+[44
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.48})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.947 
+       <./Images/AtomicClock/feedback.jpg>]
+<Images/time_dilation/intro_move.png, id=414, 671.50874pt x 596.2275pt>
+File: Images/time_dilation/intro_move.png Graphic file (type png)
+<use Images/time_dilation/intro_move.png>
+Package pdftex.def Info: Images/time_dilation/intro_move.png  used on input lin
+e 958.
+(pdftex.def)             Requested size: 201.45418pt x 178.86963pt.
+<Images/time_dilation/mirror_clock.png, id=415, 721.69624pt x 577.15625pt>
+File: Images/time_dilation/mirror_clock.png Graphic file (type png)
+<use Images/time_dilation/mirror_clock.png>
+Package pdftex.def Info: Images/time_dilation/mirror_clock.png  used on input l
+ine 971.
+(pdftex.def)             Requested size: 216.51054pt x 173.14821pt.
+
+
+[45
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.49})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.978 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.50})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.978 
+       <./Images/time_dilation/intro_move.png> <./Images/time_dilation/mirror_c
+lock.png>]
+<Images/time_dilation/moving_mirror_clock.png, id=426, 873.2625pt x 262.9825pt>
+
+File: Images/time_dilation/moving_mirror_clock.png Graphic file (type png)
+<use Images/time_dilation/moving_mirror_clock.png>
+Package pdftex.def Info: Images/time_dilation/moving_mirror_clock.png  used on 
+input line 991.
+(pdftex.def)             Requested size: 523.96153pt x 157.7907pt.
+
+Overfull \hbox (46.9791pt too wide) in paragraph at lines 991--992
+ [] 
+ []
+
+
+LaTeX Warning: Reference `mirror_clock_stationary' on page 46 undefined on inpu
+t line 997.
+
+
+LaTeX Warning: Reference `mirror_clock_moving' on page 46 undefined on input li
+ne 997.
+
+<Images/time_dilation/moving_Tm.png, id=427, 846.16125pt x 340.27126pt>
+File: Images/time_dilation/moving_Tm.png Graphic file (type png)
+<use Images/time_dilation/moving_Tm.png>
+Package pdftex.def Info: Images/time_dilation/moving_Tm.png  used on input line
+ 1002.
+(pdftex.def)             Requested size: 507.70067pt x 204.16432pt.
+
+Overfull \hbox (30.71823pt too wide) in paragraph at lines 1002--1003
+ [] 
+ []
+
+
+
+[46
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.51})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1007 
+        <./Images/time_dilation/moving_mirror_clock.png>]
+
+LaTeX Warning: Reference `mirror_clock_stationary' on page 47 undefined on inpu
+t line 1010.
+
+
+LaTeX Warning: Reference `moving_path' on page 47 undefined on input line 1010.
+
+
+<Images/time_dilation/Tm_vs_Ts.png, id=437, 709.65125pt x 393.47pt>
+File: Images/time_dilation/Tm_vs_Ts.png Graphic file (type png)
+<use Images/time_dilation/Tm_vs_Ts.png>
+Package pdftex.def Info: Images/time_dilation/Tm_vs_Ts.png  used on input line 
+1014.
+(pdftex.def)             Requested size: 425.79402pt x 236.0838pt.
+
+
+[47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.52})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1023 \item T
+              he vertical leg is the distance the photon moves in a period o...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.53})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1023 \item T
+              he vertical leg is the distance the photon moves in a period o...
+ <./Images/time_dilation/moving_Tm.png> <./Images/time_dilation/Tm_vs_Ts.png>]
+
+[48]
+
+[49]
+
+[50] (./hist_timekeeping.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `hist_timekeeping.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `hist_timekeeping.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 37675 strings out of 473190
+ 916334 string characters out of 5715801
+ 1528202 words of memory out of 5000000
+ 60378 multiletter control sequences out of 15000+600000
+ 564296 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,8n,105p,1031b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on hist_timekeeping.pdf (50 pages, 12546031 bytes).
+PDF statistics:
+ 582 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+

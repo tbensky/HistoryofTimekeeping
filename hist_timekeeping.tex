@@ -1,0 +1,1117 @@
+\documentclass[12pt]{report}
+
+\textwidth=6.6in
+\textheight=9in
+\topmargin=0in
+\headheight=0.0in
+\headsep=0.0in
+\footskip=0.0in
+\oddsidemargin=0pt
+\hoffset=0in
+%\pagestyle{headings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{circuitikz}
+\usepackage{float}
+
+\renewcommand{\chaptername}{Lecture}
+
+
+\begin{document}
+
+\section*{The Science and Technology of Timekeeping} 
+
+\section*{Summary}
+
+In this seminar, we'll take a tour of the past 700 years of humankind's quest to build clocks.  Clocks are machines that keep track of time for us, all by themselves.  We'll go from clocks that use rocks to those that use atoms to tell time. If something is ``a clock'' you must be able to identify three elements associated with it:
+
+\begin{enumerate}
+\item A time indicator. This is something that will (conveniently) report the time.
+\item A power source. Clocks do not somehow magically run for free. They must be powered to run and do their time tracking.
+\item A regulator. This gives the clock its ``heartbeat'' or its ``tick'' and ``tock.''
+\end{enumerate}
+
+
+\section*{Overall seminar guide} 
+The topics of this seminar will generally be guided by this graph. It shows how many seconds per day the best clocks people made would lose in a given day:
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.75]{clocks_hist.png}
+\caption{Accuracy of clocks in human history.}
+\label{time_graph}
+\end{center}
+\end{figure}
+
+Note the general downward trend, meaning as history went on, people figured out how to make better and better clocks. Clocks in the 1300s lost about $1,000$ ($10^3$) seconds per day, while todays best atomic clocks are losing 0.0000000000000000001 ($10^{-18}$) second per day, which is like losing 1 second every 40 billion years. What did people do to cause such a dramatic and continual transformation in timekeeping? And why?
+
+
+\pagebreak
+
+\setcounter{section}{0}
+
+\section*{Lecture \#1: Clocks in the sky (the Sun and Moon)}
+
+Before working on the graph above, with human-made clocks, let's start with the obvious natural time keepers, which are all up in the sky using the Sun  and the Moon. But first a few premises. 
+
+The Earth orbits the Sun and is tilted on its axis at $23.5^\circ$.   Its rotation makes the sky appear to move to us, in particular the Sun (during the day) and the stars and the Moon at night. This movement is a very natural part of our lives.This leads to two timekeeping opportunities.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.7]{earth_orbit.png}
+\caption{The Earth in its orbit around the Sun leads to two natural timekeepers. Video version here \url{https://youtu.be/_QcgDiF1a14}}
+\label{graph}
+\end{center}
+\end{figure}
+
+
+\begin{itemize}
+
+\item Relative to the Sun, the Earth spins once every 24 hours. This means, if you used the Sun as a marker in the sky when it's due south (or north) of you, it'll return and be either due south (or north) again in 24 hours  This was one of the earliest methods of keeping time and now is classified as ``solar time,'' because it's based on the Sun returning to its same position in the sky.
+
+\item The Earth orbits the Sun once every 365.25 days. Keeping track of the passage of a year was one of the earliest methods of keeping track of time, and is thought to be the functioning behind Stonehenge (England) and New Grange (Ireland), which both rely on the Earth's tilt for their inner workings.  
+
+\item The Moon. The Moon's net motion we see in the sky is driven by two effects, 1) its actual orbit around the Earth and 2) the Earth's rotation. There are two timekeeping consequences of this:
+\begin{enumerate}
+
+\item The moon has ``phases,'' which are the differing amount of the Moon's surface that appears to be lit up.  It takes $29.5$ days until a given phase you see on a give night will appear again. This is another natural clock based on the Moon.
+
+\item The Moon's net motion is slightly faster than the backdrop of stars behind it. Thus the spacing between the moon and a star can be used to track time. You may think of the Moon as the hands of a clock, and the stars as the clock face.  This is another natural clock based on the Moon.
+\end{enumerate}
+
+
+\end{itemize}
+
+But let us return to the annual orbit of the Earth and the ramifications of its tilt.  Because of the $23.5^\circ$ tilt, direct light rays from the Sun don't always hit the same spot on Earth (called the ``geographical position'' of the Sun). In particular, the sun's direct rays are not always over the equation for example,  The geographical position varies between the Tropic of Cancer and Capricorn over the course of the year.  
+
+The designers of Stonehenge and New Grange knew this and positioned rocks (the heel stone at Stonehenge and the hole above the door at New Grange) to capture the geographical position at the sun at the same time each year, causing these two rock structures to ``tick'' like a clock once per year. If the Earth wasn't tilted, neither Stonehenge or New Grange would work, because direct rays from the Sun would always be over the equator. Ok, so why not just build these rock structure on the equator. Well then,  Stonehenge and New Grange
+
+
+\pagebreak
+
+\section*{Lecture \#2: Clocks and Verge and Foliot Clocks}
+
+\subsection*{What is a clock?}
+
+There is no one definition for a clock, so let's just pick one we can all agree on, such as: a clock is a machine that can keep track of time, then  quickly and conveniently report that very time whenever needed.  To this end, all clocks must have three things:
+
+\begin{enumerate}
+\item A time indicator. This is something that will (conveniently) report the time.
+\item A power source. Clocks do not somehow magically run for free. They must be powered to run and do their time tracking.
+\item A regulator. This gives the clock its ``heartbeat'' or its ``tick'' and ``tock.''
+\end{enumerate}
+
+Also, keep in mind the strict demands we have for clocks: they must run 24/7 and do their job very well, or they very quickly become worthless to us.
+
+\subsection*{Verge and Foliot: the first Clocks}
+
+In this lecture, we'll begin addressing the dramatic progress in timekeeping shown in Fig.~\ref{time_graph}. Let's start at the leftmost edge of the graph. 
+ 
+During the 1300s, clocks keeping time to about 1,000 seconds/day ($\sim$15 min) were called ``verge and foliot'' clocks.  These were the first mechanical clocks ever invented.  For better or worse, no one seemed to have any better ideas on how to build a clock.  See Fig.~\ref{vandf} for the verge and foliot mechanism.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.3]{vandf_ann.jpg}
+\caption{A verge and foliot escapement.  Video version here \url{https://youtu.be/UhFPb-ZZTyI?si=dJ40OwVmyQzJKr3m}}
+\label{vandf}
+\end{center}
+\end{figure}
+
+Clocks are hard to understand without seeing one work, but let's try with the diagram above, which is the core of a ``verge and foliot'' clock. 
+Description: The rope is pulled straight down by a weight ``powering'' the clock. It turns the big ``crown wheel'' (A) counterclockwise as looking from the right.  Owing to the small gear (B), this in turn will turn the escape wheel clockwise (C). The horizontal bar (or ``foliot'') and vertical bar (or ``verge'') were fused together, forming the [informal] ``T'' or ``T-bar.'' See the inset. The T-bar hangs/dangles from the ``flexible support'' (usually a piece of string) and can rotate clockwise and counterclockwise as it hangs. 
+
+The vanes are attached to the verge portion and can rotate in and out of the crown wheel's big teeth. When one is ``in'' or engaged, the crown wheel stops because of the T-bar's inertia; the vane stays stuck in the tooth for a moment, before the power of the crown wheel (which wants to rotate) pushes a vane back out of its teeth sending the T-bar rotating in the other direction. At some moment (very briefly), neither vane is engaged with the teeth and the crown wheel can spin freely (as the T-bar rotates away after a vane is pushed out). Cursor weights at D allow one to adjust the period of the T-bar by moving them in and out (which alters the T-bar's inertia). 
+
+Look carefully to see where the ``time indicator'' might be (hint: look for an axle that seems to always spin in the same direction, and tied to the periodicity of the clock).  Now imagine a little clock hand bolted to the end of it.
+
+These clocks were generally put up into clock towers and were used to ring a bell once a day at around noon.  They typically did not have a clock face and could keep track of time to about 1,000 sec (or 15 min) per day.  They are not finesse devices, with the metal (vanes) crashing into the crown wheel teeth.  They make loud, metallic ticking sounds as they run and frequently got covered in pigeon dropppings up in the towers.  All told, the Verge-and-Foliot is an example of one of the first clock regulators ever made.  
+
+Lastly, there's the time indicator and power source.  Time indicators could be a bell or an typical $12-1-2-3...$ time face, like you're used to seeing today.  
+
+The power source of these early clocks was always gravity. If you look carefully at them, there's always a (slowly) falling weight to be seen somewhere near the clock.  In the case of the Cassiobury clock, it went like this:
+
+The weight was 50 pounds (25.3 kg).  At 9:45am it was seen to be 1.795 m above the ground.  At 15:35 it was 0.85 m above the ground.  This is a height change of 0.945 m over 5h50m (21,000 seconds). So
+\begin{equation}
+P=\frac{(25.3\textrm{ kg})(9.8 \textrm{m/s}^2)(0.945\textrm{ m})}{21000\textrm{ sec}}=0.011\textrm{ Watts}.
+\end{equation}
+
+This is about 11 mW.   (Wound up) springs were also good power sources for clocks, but didn't appear until later on, when portability and miniaturization became important.
+
+
+\section*{Lecture \#3: The pendulum clock}
+
+Looking agin at Fig.~\ref{time_graph}, there's a steep decrease in the ``seconds lost per day'' of clocks around 1650 (in other words, clocks suddenly got a lot better). This is the year the pendulum was discovered and  more-or-less abruptly, the 350 year reign of the verge and foliot clock ended. In fact many verge and foliot clocks were converted to pendulum-based clocks back then.
+
+\subsection*{Pendulums}
+
+A pendulum is made of a heavy mass (called a ``bob'') hanging from a string as shown in Fig.~\ref{pendulum}. When pulled back, it'll swing back and forth and eventually stop.  The critical property of a pendulum (for clockmaking) is its period, or how long it takes to swing back and forth one time.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.3]{Images/pendulum.jpg}
+\caption{A pendulum (from Wikipedia).}
+\label{pendulum}
+\end{center}
+\end{figure}
+
+The parameters of a pendulum are the length of the string, how far back it was pulled ($\theta$), and how heavy the bob is.  Pendulums have unusual timing abilities, governed by the equation
+
+\begin{equation}
+T=2\pi\sqrt{\frac{L}{g}},
+\end{equation}
+which tells you $T$, the period of the pendulum, or how long the pendulum takes to swing back and forth once. Oddly, $T$ only depends on the length of the string $L$, and gravity $g$ ($=9.8$ m/s$^2$). Given all parameters of the pendulum, be sure to understand what this timing equation \emph{does not seem to depend on.}
+
+\subsection*{A pendulum escapement}
+
+Just because you have a pendulum doesn't mean you have a pendulum {\sl clock}. How after all, would you
+rig something that simply swings back-and-forth (and eventually stops), into a clock, that ticks and tocks and keeps running 24/7? (Recall also that a clock has three-things: 1) a time indicator, 2) a power source, and 3) a regulator.) The pendulum is just the regulator.
+
+To begin morphing a pendulum into a clock, one typically starts with the power source, which is a weight hanging on a rope, wrapped around a pulley like that shown in Fig.~\ref{pulley}.  If you let go the weight, it would speed toward the ground, spinning the pulley behind it, and be all over and done with very quickly (a second or two?).
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{Images/pulley.png}
+\caption{A weight and roped wrapped around a pulley.}
+\label{pulley}
+\end{center}
+\end{figure}
+
+But suppose you put teeth on the pulley as in Fig.~\ref{pulley_escape}(a), put anchors at the top of the pendulum (and substituted something rigid for the string) as in Fig.~\ref{pulley_escape}(b). The pendulum would swing as shown in Fig.~\ref{pulley_escape}(c). Note how the anchors on the left and right dip down and up as the pendulum swings.
+
+ \begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{Images/pulley_escape.png}
+\caption{A pendulum and pulley rigged into an escapement mechanism.}
+\label{pulley_escape}
+\end{center}
+\end{figure}
+
+
+Next, mount the pendulum and now-toothed pulley near each other, so the anchors can engage with the pulley's teeth as shown in Fig.~\ref{escape_mount}.  Finally, allow the weight to fall and pendulum to swing as shown in Fig.~\ref{swing}.
+
+ \begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.3]{Images/escape_mount.png}
+\caption{A pendulum and pulley mounted near each other, so the anchors can engage with the pulley's teeth.}
+\label{escape_mount}
+\end{center}
+\end{figure}
+
+
+
+ \begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{Images/swing}
+\caption{Let the weight fall and pendulum swing.  The resulting tooth/anchor interaction can be seen here \url{https://www.youtube.com/watch?v=-M6zL9Mc5Bo}.}
+\label{swing}
+\end{center}
+\end{figure}
+
+As the pendulum swings, a given anchor will engage and release, just as the {\sl other} anchor now engages then itself releases. Congratulations! You'll hear the ``tick'' and ``tock'' and you've just made an anchor escapement. 
+
+It's called an ``escapement'' because the swinging pendulum and its anchors only allow energy to escape from the pulley bit-by-bit, during the brief moments when neither anchor is engaged with any teeth.  The in-and-out anchors do not let the weight wildly fall with an out-of-control spinning pulley. There are many, many different types of escapements. This is just one.  Go on Youtube and search for ``clock escapement.'' What you'll fine is quite interesting.
+
+\subsection*{Pendulum clock}
+
+Looking carefully at. Fig.~\ref{swing}, you'll note that the axis of the pulley is able to turn clockwise incrementally (as allowed by the anchors).  If a small clock-hand was attached to this, it would rotate with the axis. With a clock face placed behind this clock-hand, you'd have a time indicator and a clock.  Be sure you can identify the power source, regulator, and time indicator.
+
+Pendulums clocks went on to dominate clockmaking from 1650 until 1920 or so (when modern electronics took over). Scientists kept trying to improve pendulum clocks for research purposes, do during that time, pendulums were put into sealed cabinets and even vacuum chambers. Some clocks had a ``master'' pendulum that wasn't even directly connected to the main clock, but used a magnetic linkage to impose its regulation abilities on another pendulum that it ``disciplined'' in the main clock (see the Shortt-clock on Wikipedia).  
+
+\pagebreak
+
+\section*{Lecture \#4: Issues with clocks}
+
+So we've seen three kinds of timekeepers to this point: a couple made of rocks, the verge and foliot, and now the pendulum clock.  Before moving on to still more clocks, we must pause now with our romp through Fig.~\ref{time_graph},  to consider issues with the two mechanical clocks that we now (in principle) kind of know how to build. 
+
+The issue is that it's not enough to just get them ticking and tocking. We need them to keep time for us.  This motivates a couple of questions:
+\begin{enumerate}
+\item What demands do we have for the clocks in terms of their ability to keep the correct time (i.e. accuracy)?
+\item What kind of time are they able to keep (meaning how good are they at keeping the correct time)? How would one even assess a clock's performance? 
+\item Once running, what can affect their run rate?
+
+\end{enumerate}
+
+\subsection*{An example of demands on a clock}
+
+Ok, so what kind of performance do we need of a clock? It has to run 24/7 for sure. But what about its timekeeping abilities? 
+
+\subsubsection*{Everyday example}
+
+Certainly a clock that lost more than a minute of two {\sl per hour} would start to make us late for meetings, classes, trains, and airlines. This would be an example of a pretty lousy clock that kept time to within 2,880 seconds/day. Here's another historical example  from the history of navigation.
+
+\subsubsection*{Historial example}
+The coming of the 1700s capped a long run (200 years or so) of really desperate times in navigation: no one out there sailing the seas could find their longitude (east/west position), so they were all getting lost and into some pretty desperate situation.  
+
+So the English Parliament came along with the ``Longitude Act of 1714,'' which stated that one could win \pounds 20,000 (about \$13M in today's dollars) for a method that would determine longitude to $0.5^\circ$ of a degree.
+
+Here is a way of looking at this as a clockmaker.  The Earth rotates $360^\circ$ in 24 hours, which is $15^\circ$/hour. The $0.5^\circ$ of the prize means a clock would have to accurately time how long it takes the earth to rotate $0.5^\circ$ or
+
+\begin{equation}
+0.5^\circ\times\frac{1\textrm{ hour}}{15^\circ}=0.033\textrm{ hour},
+\end{equation}
+which is $120$ seconds.  Thus the $0.5^\circ$ degree in the prize translates into timing a $120$ second interval as accurately as you can.
+
+The Act also stipulated that the official test of any proposed solution would be done on a voyage from England to around what is today Florida, USA. Back then, a one-way trip lasted about two-months (60 days). This gave the voyage a good westward sweep of longitude, and meant a clock could lose no more than $120$ seconds in $60$ days or about $2$ seconds per day. 
+
+So here's an example of a needed time standard we can kick around: a clock needed for navigation (back in the 1700s) had to keep track of time to within $2$ seconds/day.  Let's then discuss keeping time to $2$ seconds/day.
+
+\subsection*{Assessing a running clock}
+
+There is no absolute timekeeping standard.  So pure and simple, if you want to assess the timekeeping abilities of a clock, you have to compare it against a more accurate clock. 
+
+In modern clock analysis, you'd picture a mechanical clock (with all of its friction and moving parts) being compared to a high-tech electronic clock run off of battery and controlled for example by a CPU.  As an example, think of comparing the ticking and tocking of a mechanical clock to the clock in your phone
+
+What one would do it, wait until the second hand of a mechanical clock passes 12 and immediately start your phone's stopwatch.  Let the mechanical clock run for a minute, until the second hand reaches 12 again, indicating one minute has gone by (according to the mechanical clock). What elapsed time does your phone say has gone by?  See how they compare. Here's an example.
+
+\subsubsection*{Actual test}
+
+We took a German-made wall clock of pretty decent quality. The clock is a mix of electric and mechanical parts (it is battery powered).  We got it running and had the stopwatch on our iPhone ready. The iPhone stopwatch would be an example of a clock that is much more accurate than the wall clock. When the second-hand on the wall cock passed the 12, we started the stopwatch. We timed the clock for two minutes. When done, the iPhone said 2:00.53.
+
+This means the wall clock was slow by 0.53 seconds over the two minutes. This is 0.53 seconds/2 min or
+
+\begin{equation}
+\frac{0.53 \textrm{ seconds}}{2\textrm{ minutes}}\times\frac{1440 \textrm{ minute}}{1 \textrm{ day}}=381.6\frac{\textrm{ seconds}}{\textrm{ day}} = 6.36\frac{\textrm{ minutes}}{\textrm{ day}}.
+\end{equation}
+
+Losing 6.36 minutes per day isn't great, but there's more to this. We may not even notice it, as sometime the clock could run a bit fast, other times a bit slow.  In particular, this test only lasted for $2$ minutes. What would the result be if we ran it for $10$ minutes? $60$? Even all day?  Here are some additional observations
+
+\begin{itemize}
+\item After 1 hour the iPhone timer said 1:00:07.52.  This is 7.52 seconds/hour or 180.5 seconds/day or about $3$ minutes per day. So already the clock is showing better longer-term performance.
+
+\item After 5 hours, the iPhone said 5:00:23.48, so 23.48 seconds/5 hours or  110 seconds/day (about 2 seconds/day).
+
+\item After 24 hours, the iPhone said 24:02:39.79, so 39.79 seconds/24 hours, or 39.8 seconds/day. 
+\end{itemize}
+
+This clock would not win the ``longitude prize'' from 400 years ago, and it is a quality clock, from the 1960s.  If interested, examining clocks during different time windows is called the ``Allan Variance'' and is {\sl the} method for assessing clock A against clock B (which is known to be better).
+
+\subsubsection*{A concluding phrase}
+There is a quote (Segal's Law) that encapsulates this, that goes something like
+\begin{quote}
+{\sl If you have one clock, you know what time it is.  If you have two clocks, you have no idea what time it is.}
+\end{quote}
+
+Lastly, your instructor's 3D printed clock would lose about 900 seconds/day, which is on par with a verge and foliot clock from the 1300s.  Not good, but at least it made it onto the chart in Fig.~\ref{time_graph}.
+
+\subsection*{Upsetting a running clock}
+
+As a clock runs, you may be able to think of a variety of issues that could hinder its timekeeping abilities: wear and tear, external vibrations, air pressure, humidity, etc. Even electronic clocks have their problems.
+
+But one factor was by bar more insidious than anything else: changes in temperature, as we'll see in the next lecture.
+
+\pagebreak 
+
+\section*{Lecture \#5: Issues with clocks}
+
+\subsection*{Effects of temperature on clocks}
+
+Think back to the pendulum clock. The {\sl length} of the pendulum sets its period.  Next, think back to the verge and foliot clock.  The {\sl length} of the foliot bar (in particular, the distance between the pivot and the cursor weights) set its period. Suppose the length of these parts did not stay constant. How would this affect a clock's timekeeping abilities? Well, if the length of a pendulum got bigger, its $T$ would go up, meaning its period would increase.  The same goes for the verge and foliot; the longer the foliot bar, the longer its period would be as well. (Most clocks can be shown to slow when they heat up.)
+
+As the section title implies, temperature could cause such length change. Why? Simple: when things heat up they expand, and when they cool, the contract.  Everything does this, and as you may know temperature is also kind of hard to control. If you've ever brought a cooler of food to the beach, you know that temperature is hard to maintain.  Likewise for turning off your home or car's heater momentarily on a cold day.
+
+\subsection*{Pendulum's and temperature}
+
+For our purposes here, think of a long thin rod used for a pendulum.  Temperature expansion of this rod would can be collected into this single equation
+\begin{equation}
+\Delta L=\alpha L_0 \Delta T,
+\end{equation}
+where $L_0$ is the original length of the object, $\Delta T$ is some change in temperature the object undergoes, $\alpha$ is the expansion coefficient (capturing what exact material are we talking about, like wood, steel, etc.), and $\Delta L$ is how much the object will expand by.
+
+What about the $\alpha$ in the equation? This is called the ``expansion coefficient'' and is different for different materials an object might be made from.  Lets use brass and steel (two common clockmaking materials).  Brass has $\alpha=0.000019$ per degree C and steel has $\alpha=0.000011$ per degree C. So, if we know the original length of some material and the temperature change it has undergone, we can predict how its length will change. 
+
+As an example, a $2$ m brass rod would expand by $0.38$ mm if the temperature rose by $10^\circ$C. Now a $0.38$ mm expansion to a pendulum clock might now sound like much. Will this really affect the period of a pendulum clock? Let’s see.  Maybe this won't be a big deal. 
+
+Recall the period of a pendulum clock is $T=2\pi\sqrt{L/g}$. If $L=2$ m then $T=2.83845$ seconds, or it will take the pendulum about 2.8 seconds to swing out and back again (excuse the significant figures; we’ll need them in a minute). 
+
+Now suppose the pendulum heated up by $10^\circ$C. The length would expand to $L=2.00038$ m, and if we re-compute $T$, we’ll get $T=2.83872$ seconds. So, the clock period has increased by $0.00027$ seconds or about $270 \mu$s. Does this matter? It does. 
+
+Remember that clocks are  always running; this small increase in period is only for a single swing of the pendulum. A $L=2$ m long pendulum has a of $T=2.8$ seconds, and with 86,400 seconds in a day, the clock would swing back and forth about $30,000$ times a day. If each swing is off by $0.00027$ seconds, this would result in an error of about $8.1$ seconds in one day. 
+
+So even if you could get a pendulum clock to continually run on a rocking ship (remember, clock building is difficult enough), a slight temperature increase during the voyage would ruin your chances at winning the longitude prize.
+
+\subsection*{Combating temperature}
+
+Take a look at the gains made in timekeeping in the part of our graph contained by the red square in Fig.~\ref{time_graph_temp}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{clocks_hist_temp.png}
+\caption{Accuracy of clocks in human history. The red square highlight gains made by combating how temperature affects a clock.}
+\label{time_graph_temp}
+\end{center}
+\end{figure}
+
+They were modest gains, but systematic and all applied to pendulum clocks. These gains were mostly due to work in figuring out ways to combat temperature changes a clock may have been subjected to.
+
+So let's design a pendulum whose period was immune to temperature changes. This means a pendulum whose length was somehow immune to the natural expansions and contractions that all materials undergo when their temperature changes. 
+
+Here's now to proceed (see John Harrison's work). If you look at the expansion coefficients you'll note that brass expands more than steel by about $19$ to $11$ (or \emph{about} $3$ to $2$). Further, from the above equation, an object's length change $(\Delta L)$ is proportional to its original length, $L_0$. So, if you had two pieces of steel, one twice as long as the other, the longer one would have a $\Delta L$ that is twice the other for the same temperature change, $\Delta T$. 
+
+So, why not combine brass and steel in such a ratio to cancel the effects of thermal expansion, like this? How?  Take a steel rod 9 feet long, and a brass rod 6 feet long, and lay them side by side and fuse their lower ends as in Fig.~\ref{brass_and_steel}. Their upper ends would be about 3 feet apart as shown.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.3]{brass_and_steel.png}
+\caption{Combining brass and steel to combat length changes due to temperature. Since steel expands slower than brass by a factor of 2/3, it'll be cut to be 3/2 the length of brass to compensate. The distance between the tip of the steel and the tip of the brass in this figure will stay constant.}
+\label{brass_and_steel}
+\end{center}
+\end{figure}
+
+As temperature rises, the brass and steel will start expanding. Brass {\sl will still} expand faster than steel (we can't do anything about that), but since the steel is $\frac{3}{2}\times$ longer than brass, the length change of steel (via $\Delta L=\alpha L_0\Delta T$) will be ``amplified'' by $\frac{3}{2}$ allowing its expansion to keep up with the brass's expansion. Here the distance between the top tip of the brass and the top tip of the steel will remain constant.
+
+To close, the beginnings of a temperature-immune pendulum is shown in Fig.~\ref{grid_iron_pend}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{gridiron_pendulum.png}
+\caption{The beginnings of a gridiron pendulum. Note here the distance between the pivot and pendulum bob remains constant with respect to temperature changes. The length of the steel and brass rods change at the same rate owing to the steel being cut $\frac{3}{2}\times$ longer than the brass.}
+\label{grid_iron_pend}
+\end{center}
+\end{figure}
+
+\subsection*{Other compensated pendulums}
+
+These designs include hollow tubes of liquid mercury, an example of which is shown in Fig.~\ref{merc_pend}. When heated, mercury will thermally expand upward, raising the center of mass of the pendulum, effectively, shortening the length. Again, mercury does not \emph{physically} shorten the pendulum, but by making its center of mass go up it ``effectively'' shortens.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.25]{Mercury_pendulum.png}
+\caption{A mercury compensated pendulum. The mercury is in the two cylindrical vials that serve as the pendulum bob.}
+\label{merc_pend}
+\end{center}
+\end{figure}
+
+
+\pagebreak
+
+\newpage
+\clearpage
+\section*{Lecture \#6: High technology clocks}
+
+If you want to dispense with all of the moving parts, crown wheels, falling weights and gears, you'll have to look to electronics. High technology in timekeeping started with electronics in the early 1900s (see Fig~\ref{time_graph}).  Electronics was also the way to keep the accuracy of clocks getting better and better.  But the complicated issues are the same trio for clocks: what's the power source, the time indicator, and the regulator?
+
+
+\subsection*{Electronic clocks}
+
+
+\subsubsection*{Time indicator and power source}
+
+For electronic clocks, the power source is usually fairly simple a battery (or plug it into the wall), but the question remains: what will you apply power to? (It's not a turning crown wheel anymore.)
+
+The time indicator can also be somewhat simple, usually being some kind of electronic display like a 7-segment display, or (these days) a touch screen. Just how to trigger the display however (to count time) is \emph{not} so simple. 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.2]{Figs/7seg.png}
+\label{rc_circuit}
+\end{center}
+\end{figure}
+
+
+\subsubsection*{The regulator}
+
+For the regulator, there are two primary elements in beginning timekeeping with electronics: the resistor and the capacitor.  The {\bf resistor} slows current in a circuit, and the {\bf capacitor} most correctly maintains a charge separation in a circuit. But for the purposes here, we'll think of a capacitor as storing charge and only up to a certain amount of it.
+
+For a basic timing circuit, the two can be combined as shown in Fig.~\ref{rc_circuit}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Figs/rc_circuit01.jpg}
+\caption{An RC circuit charging up. Each curve represents the amount of charge on a capacitor as time goes on after a switch is closed.}
+\label{rc_circuit}
+\end{center}
+\end{figure}
+
+In operation, when the switch is pushed closed, current begins to flow from the battery. It is slowed by the resistor, then pass on into the capacitor. We can monitor the amount of voltage on the capacitor, which is a proxy for the amount of charge on the capacitor.  Our monitor point is shown in Fig.~\ref{rc_circuit}.  Here's what voltage we'd see on the monitoring point for three different circuits.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{Figs/rc_graph.png}
+\caption{An resistor-capacitor (or ``RC'') circuit filling up a capacitor.. Each curve represents the amount of charge on a capacitor as time goes on after a switch is closed.}
+\label{rc_charging}
+\end{center}
+\end{figure}
+
+The blue curve (outer left) is with a capacitor and a {\sl small} resistor. It reaches 100\% the fastest. The orange curve (middle) is for a bit larger resistor and the green (rightmost curve) is for the largest resistor, which reaches 100\% last. Thus, the size of the resistor allows us to control how long it takes the capacitor to fill. This is the basis of electronic timing.
+
+So we have control over the time it takes to fill a capacitor. In fact, the time it'll take is just the product of the value of $R$ and the value of $C$, so $\tau=R\times C$. As an example, if $R=100\Omega$ and $C=100\mu$F, then $\tau=0.01$ s or about 10 ms. A $10,000\Omega$ resistor with a $100\mu$F would give the convenient $1$ s time-base.  But where is the tick and tock?
+
+
+
+\subsection*{The tick and tock}
+
+Getting a tick and tock from an RC circuit is a bit complicated, but is a good theme for this discussion.  In sum, when the capacitor is full, the current ceases to flow in the circuit. To start the capacitor charging cycle over again, the capacitor must be \emph{discharged}, which means all of the charge it contains must be neutralized.  Once done, the capacitor can start charging again with its characteristic time of $\tau = R\times C$. 
+
+Here's the needed sequence. First, the circuit is built and readied.  The switch is open, so no current can flow.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.4]{Figs/phet_rc_empty.png}
+\caption{A basic RC circuit with an empty capacitor.}
+\end{center}
+\end{figure}
+
+\noindent Next, a switch is closed powering the circuit. Notice the capacitor plates become full after about $R\times C$ seconds. Current ceases to flow in the circuit.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{Figs/phet_rc_full.png}
+\caption{A basic RC circuit that has been on for a while. The capacitor is full and current ceases to flow.}
+\label{full_cap}
+\end{center}
+\end{figure}
+
+\noindent What now? The capacitor must be discharged before it can charge up again. Another switch can be added to do this (see right switch in Fig.~\ref{rc_discharge}). We'll call this the ``discharge switch.''
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{Figs/phet_rc_discharge01.png}
+\caption{Discharging the capacitor with a switch. The switch was just closed relative to Fig.~\ref{full_cap}, so note the capacitor is now empty.}
+\label{rc_discharge}
+\end{center}
+\end{figure}
+
+The switch has the effect of neutralizing any charge separated (or stored) by the capacitor. Wtching the monitor point as time goes on, we'd see a rapid drop to zero when the switch is closed, followed by a hard zeros as seen in Fig.~\ref{rc_multiple} while it remains in place. Once the wire is removed, the capacitor can charge up again, following its usual timing which is $\tau=R\times C$. The large ``lobes'' seen in Fig.~\ref{rc_multiple} may be thought of ticks and tocks. 
+
+ \begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.35]{Figs/rc_multiple.png}
+\caption{The effects of the wire across the capacitor. One sees the normal charging, the an abrupt flat-line near zero when the switch is closed.  Opening the switch again allows the capacitor to charge up again.}
+\label{rc_multiple}
+\end{center}
+\end{figure}
+
+\noindent But the question remains:
+\begin{quote}
+{\Large Who or what will keep pressing the switch to discharge the capacitor?}
+\end{quote}
+This is a tough question to answer.
+
+\subsection*{Operating the discharge switch}
+
+We can't involve a human into the capacitor discharge process (i.e. pressing the switch). This would not lead to a self-running regulator with any decent operation at all. We'd like something that works automatically. But how?
+
+We suppose there are many answers to this question, but the many will get reduced to almost zero if we insist: {\sl no integrated circuits are allowed.}  With this constraint we can only think of three methods:
+
+\begin{enumerate}
+\item A neon bulb
+\item a relay, or
+\item a pair of transistors.
+\end{enumerate}
+
+The relay and neon bulb will be discussed here. The transistor method will have to wait until the next lecture.
+
+\subsubsection*{The Relay}
+
+Here is an RC oscillator circuit that uses a relay to discharge the capacitor automatically. 
+
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Figs/relay/relay.png}
+\caption{The relay oscillator.}
+\label{relay_osc}
+\end{center}
+\end{figure}
+Note that the switch (the gray line) is like a level that rotates about the heavy dot shown. It starts in the Position A shown, and can rotate down along the dotted line of Position B.
+ 
+It works like this.  See how the top of the battery feeds into the relay, through the switch, and back around to the RC circuit. This is business as usual; charge up the capacitor slowly through the resistor.  
+
+Now, note though how the ``monitoring point'' is connected to the electromagnet. When the capacitor builds up enough charge, it'll energize the electromagnetic sufficiently enough to pull the switch down to Position B.  Note the effect this has: the RC circuit is no longer connected to the battery! So, the C can dump its charge into the electromagnet until (via the monitoring point) until it's empty. In effect, the electromagnet empties (or discharges) the capacitor. 
+
+When the capacitor discharges, the monitoring point can no long energize the electromagnet and the switch will pop back up to Position A again, and the cycle repeats. An RC oscillator is born!
+
+\subsubsection*{The Neon Bulb}
+
+A neon bulb (of all things) behaves like a self-contained discharge switch. One looks like this:
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.2]{Figs/neon_bulb.jpg}
+\caption{The neon bulb. The electrodes will spark across and emit a flash at about 90V.}
+\label{neon_bulb}
+\end{center}
+\end{figure}
+To use it, simply place it across a capacitor in an RC circuit. When the charge level (or voltage) on the capacitor reaches 90V, the electrodes will spark (and emit a flash of light) allowing the capacitor to discharge. The only downside is that you have to work with somewhat higher voltages, in the range of 90-100V or so. This makes working with a small, simple battery powered unit a bit difficult, but it can be done by stringing 10, 9V batteries together.
+
+\pagebreak
+\newpage
+\clearpage
+
+\section*{Lecture \#7: Even more high technology clocks: The transistor}
+
+Resetting the charge on the capacitor in the Lecture \#6 is a frustrating problem. The relay and neon bulb work, but are clumsy and will not lead to any kind of precision timekeeping.  Some other idea is needed.   
+
+Let's ease into this new idea by thinking about {\sl switches}.  Switches will do here because what we really need is a switch to close across the capacitor when it's full, to empty it of its charge. And once empty, to open again (i.e. ``unswitch'') in order to allow the capacitor to charge up once again. This will allow the RC timing cycle to persist.
+
+\subsection*{A switch}
+
+If you look at this circuit, you can probably guess what will happen when we close the switch (circled):
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.3]{Images/1switch.png}
+\caption{A single switch circuit.}
+\label{1switch}
+\end{center}
+\end{figure}
+\noindent The bulb will light, as shown here:
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.3]{Images/bulb_on.png}
+\caption{A single switch circuit with the switch closed.}
+\label{1switch}
+\end{center}
+\end{figure}
+
+What if we wire in multiple switches?  Can you tell what switch combinations are needed to turn the bulb in this figure?
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.3]{Images/and}
+\caption{A double switch circuit forming an ``and'' machine. Both switches (e.g. one AND the other) must be closed before the bulb comes on.}
+\label{1switch}
+\end{center}
+\end{figure}
+\noindent Both switches need to be closed in order for the lightbulb to turn on.  What about this one?
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.3]{Images/or.png}
+\caption{A double switch circuit forming an ``or'' machine. Either switch must be closed (e.g. one OR the other) before the bulb comes on.}
+\label{1switch}
+\end{center}
+\end{figure}
+\noindent Either switch (or both) being closed will turn on the bulb.  In technology, these ``machines'' of multiple switches are called gates and there are many other styles than just ``and'' and ''or.''  Here's a collection of them (each has its own symbol too):
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/gates.jpg}
+\caption{Common logic gates.}
+\label{1switch}
+\end{center}
+\end{figure}
+Each gate has its own logic, and can certainly be used by themselves. When connected into larger networks however, a ``collective behavior'' can begin to develop. Here's a bunch of gates that will actually add together two  numbers ({\sl binary} numbers that is. So if A and B (on the left) are loaded with 1s and 0s, S will be the sum and C the ``carry.'')
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.15]{Images/adder}
+\caption{A network of logic gates that will add together two numbers (from Wikipedia).}
+\label{1switch}
+\end{center}
+\end{figure}
+
+\noindent Just about any other logical action is possible too, from basic digital memories to full our microprocessors that run your phone.
+
+As you might guess, these gates are not made from mechanical switches. They're made from another type of switch called the transistor.  Here's a rough correspondence (transistor on the left, switch on the right):
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Figs/t_and_switch}
+\caption{A transistor and switch side by side.}
+\label{1switch}
+\end{center}
+\end{figure}
+Here the three terminals on the transistor roughly correspond like this: A on the transistor is like screw terminal A on the switch.  C on the transistor is like screw terminal C on the switch.  B on the transistor is like the switch control; it plays a similar role to the lever we toggle on the switch (B) to turn it on and off. OK, so what's a transistor? Glad you asked!
+
+\subsection*{The transistor}
+
+A transistor is a small device. The one shown here is about the size of the tip of a pencil:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{Figs/transistor.png}
+\caption{A transistor.}
+\label{transistor_pic}
+\end{center}
+\end{figure}
+As we need here, a transistor is an electronically controlled switch. Loosely, the ``law'' of how a transistor works is like this: if you put a voltage on the middle wire, current will flow between the left- and rightmost wires. So the middle wire is like the switch lever and the outer two wires are like the switch terminals.
+
+Just like the mechanical switches above, two transistors could be wired as an AND gate (like the two switches above).  As shown here, as both transistor points and A and B would need to be on in order for the lightbulb to come on.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.2]{Figs/and_trans.jpg}
+\caption{A transistor AND gate. Both transistors terminals A and B must be ``on'' for the lightbulb to light. (To the experts: we left out the resistors for simplicity. In this circuit, the bulb would probably light briefly when A and B are connected to the positive battery terminal. It would turn off again after both transistors blow out and smell up the room.)}
+\label{and_gate}
+\end{center}
+\end{figure}
+
+We must pause though, and pay some homage to the transistor.  After all, likely nothing spells the birth of our high-tech world more than the transistor. It's \emph{the} basic unit of our high-technology society that drives our digital lives, making our computers, phones, and coffee makers work. Combinations of millions (and billions) of transistors make all kinds of ``digital logic'' possible.  A quote from AI:
+\begin{quote}
+{\sl 
+Transistors are the fundamental building blocks of all modern electronics, acting as tiny switches and amplifiers for electrical signals. They enable everything from the computers and smartphones we use daily to complex systems in high-power applications like electric vehicles and telecommunications. By combining billions of transistors into integrated circuits, we can perform complex calculations and manage data, making possible the digital world as we know it. 
+}
+\end{quote}
+
+
+\section*{Electronic clocks}
+
+For a clock, we need transistor logic that will run a on-off-on-off... pattern when powered up. The ``on'' could be the ``tick'' and the ``off'' could be the tock.  These electronic ticks and tocks could then be used to drive some kind of seconds display, counting up 1, 2, 3, 4, 5... one second at a time.
+
+For this discussion, we'll look at an integrated circuit (or IC) called the ``555 timer IC.'' An ``integrated circuit'' is another technological innovation which is a single unit with millions or billions of transistors fused into it, making all kinds of digital logic possible.  
+
+The 555 is one of the most famous ICs of all time, with billions of them being sold and used since its invention in the 1970s. Here's is what the 555 looks like:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.2]{Figs/555.png}
+\caption{A 555 integrated circuit. (From Wikipedia.)}
+\label{555_ic}
+\end{center}
+\end{figure}
+Its internals would look like this
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{Figs/555_internals.png}
+\caption{The internals of a 555 integrated circuit. (From Wikipedia.)}
+\label{555_internals}
+\end{center}
+\end{figure}
+A transistor has a symbol that looks like this
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.1]{Figs/transistor_symbol.png}
+\caption{The symbol for a transistor.}
+\label{transistor_symbol}
+\end{center}
+\end{figure}
+and you can count dozens of them inside of the 555.   Here is an actual circuit wired up using the 555.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Figs/555_circuit01.png}
+\caption{A 555 all wired up to flash the LED about 5 times per second. (Circuit built by the author.)}
+\label{555_circuit}
+\end{center}
+\end{figure}
+This circuit would flash the LED about 5 times per second, and could serve as a time indicator.
+
+
+\subsubsection*{Performance}
+
+So we have a high technology clock made out of transistors up and running.  How does it perform?
+
+Remember when assessing clocks we always have to compare one with another clock known to be better than the one we'd like to test. To this end, we used a Agilent 53220A ``Frequency Counter and Timer'' as our tester and ran the output of the 555 circuit shown above into it for analysis.  We had the 53220A watch the 555 oscillate for 20 minutes and obtained the following graph, which is a log of the time between its ticks and tocks:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{Figs/555_20min_periods.png}
+\caption{20 minutes worth of tick-to-tock periods of a 555.}
+\label{555_periods}
+\end{center}
+\end{figure}
+
+Let's come to some conclusions.
+\begin{itemize}
+
+\item As you can tell, it starts off with the period getting smaller and smaller (or the clock starts running faster and faster) for about the first 5 minutes. Then the period starts to increase again (or the clock starts slowing down again) for the next 15 minutes.
+
+\item It seems to tick and tock within 0.197 and 0.202 seconds. This is a fluctuation of about 2\%.
+
+\item Over the 20 minutes, it seems to take longer to slow back down after the 6 minute mark, than it did to speed up before 6 minutes. Definitely asymmetric operation over 20 minutes.  The net result is likely that the clock started to ran fast over the 20 minutes.
+
+\item It has many small bursts of speeding up and slowing down as it runs.
+
+\end{itemize}
+
+Suppose the 0.202 seconds as it started was some target. After 20 minutes, it only crept back up to 0.201 seconds.  This is 0.001 seconds lost in 20 minutes, or about 1.44 seconds/day. This could have won the Longitude Prize of 1714.
+
+
+\pagebreak
+\newpage
+\clearpage
+
+
+\section*{Lecture \#8: Very high tech clocks}
+
+Back to this figure once again, what does it really take to get on that steep downward line around the year 2000?
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.75]{clocks_hist.png}
+\caption{Accuracy of clocks in human history.}
+\label{clock_hist_again}
+\end{center}
+\end{figure}
+\noindent As you might guess, some serious high technology, in this case crystals and atoms.  Let's talk about these in this lecture. 
+
+\subsection*{Summary: Transistorized clocks are not quite enough}
+
+After developing a high-tech transistorized clock (or oscillator) in the last lecture, there is really nothing better out there in terms of a core electrical oscillator. The 555 itself is certainly not the final word, as it is by no means the best oscillator out there, but it's simple enough to get our point across though (and easy enough to use).  
+
+Problems with it involve the resistor and capacitor used to set its timing  cycle. Just like an actual swinging pendulum, they have a strong dependence on temperature, as does the integrated circuit itself. 
+
+These effects would mostly be due to thermal expansion and compression of the capacitor (the same issue that plagued the old mechanical clocks), and resistors are well known to have a temperature dependent resistance. So the first thing one would avoid with a 555, is to leave out running on a table.  It would need to be enclosed in some kind of insulated case that has an active temperature control associated with it (which is not really all that hard to do).This for example, would keep the 555 and all of its circuitry at for example $20^\circ$C.
+
+So what's next? How does one get to the extremely accurate clocks that we routinely see in the year 2000 and later? The short answer: by allowing something like a 555 oscillator to run, but not all by itself.  We'd need some external device to ``discipline'' or ``monitor'' the oscillator, potentially correcting it when it goes astray. As an example, looking again at Fig.~\ref{555_periods}, suppose something could be adjusted starting around 2.5 seconds, to prevent the big drop in the 555's period?
+
+The best monitoring tools we have for these transistorized clocks are quartz crystals and atoms. But let's stop for a moment and see just what it is we're after with our better and better clocks.
+
+\subsection*{What do we want of a clock: accuracy or precision?}
+
+As we start heading down the steep slope of the graph above, near the year 2000, what is it we want of our best clocks? Is it accuracy? Precision? Something else? Stated another way, in the graph above, what would we really label the y-axis?  ``Clock accuracy?'' ``Clock precision?'' ``Clock error?''  It turns out that accuracy and precision mean different things, although most think of them as synonyms, and error is kind of tied up between the two.
+
+In the clock world, precision strictly means ``reproducibility.'' So supposed we swing a pendulum and get a period of 2.1 seconds. If we swing it again and again and keep getting 2.1 seconds, we'd call the clock precise: it keeps exhibiting the same behavior.
+
+Accuracy strictly means ``correctness.''  With a pendulum, the formula says its period should be $2\pi\sqrt{L/g}$. So, a 2 m long pendulum would have a period of $2.84$ seconds.  If we swung this pendulum and measured it as swinging with this period, we'd say the clock was ``accurate'' because it's swinging as the formula predicts.
+
+But here's the issue: What do we want out of a clock? Accuracy or precision?  Suppose the 2 m pendulum swung with a $2.1$ second period, over and over again. It would be precise, but not accurate (since its period should be $2.84$ seconds).  It is at least very reliable, so we can count on it to behave in the same way. 
+
+On the other hand, suppose we swung the pendulum and measured its periods to be 2.6, 2.6, 2.8, 2.9, 3.0, 2.7, 3.1, 2.8, 2.9, and 3.0. The average would be $2.84$ seconds, so the clock appears to be accurate (on average), but not very precise (since the periods are all over the place).
+
+As a summary, suppose there was some absolute correct time out there, that said it's 10:10AM, here's a summary of what an accurate vs precise clock would look like.
+
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Clock reads} & \textbf{Behavior} & \textbf{Time} & \textbf{Error in the time} \\
+\hline
+10:10 $\pm$ 30 min & Accurate but not precise & Correct (on average) & Large  \\
+1:30 $\pm$ 0.1 sec & Not accurate but precise & Wrong & Small  \\
+1:30 $\pm$ 30 min  & Not accurate, not precise & Wrong & Large \\
+10:10 $\pm$ 0.001 s & Accurate and precise & Correct & Small  \\
+\hline
+\end{tabular}
+\end{center}
+
+So we'll say that we'd like a {\sl precise} clock.  We want it to be predictable to reproducible and will state that  the y-axis of the graph above should be labelled ``Clock precision.'' We don't really need to rely on an absolute correctness in what time it is, but we want a clock that is very reliable in its tick-to-tock cycle.  
+
+
+
+
+\subsection*{Crystals}
+
+For electronic clocks, nothing beats using a crystal to gain some impressive stability. Crystals, as used in electronics, are what came along in the 1920s, and ushered the beginning of the end of mechanical clocks as best timekeepers. Just as the pendulum outdid the verge-and-foliot, so did the crystal with the pendulum. If you look back to clock improvement graph in Fig.~\ref{clock_hist_again}, the beginning of the steep dive in the 1950s was due to quartz, and their use with clocks.   Putting crystals into electronic clocks allowed for time keeping within one-thousandth of a second per month (or $<1$ second/day).
+
+A ``crystal'' in this case is a piece of quartz or basically sand from the beach (usually from a beach in northeast Australia). As for construction originating as sand, they are highly refined. The sand is cleaned, polished, and cut to size with high precision. Electrodes are painted on the top and bottom surfaces of the cut crystal. It is then housed in a small metal container to protect it from the environment (humidity, etc.). In totality, they'll be about 2 to 4 mm in size. Here's an actual crystal, like the one we're referring to.  
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/xtal.png}
+\caption{The commercial quartz crystal, all sealed up in its case and ready to go.}
+\end{center}
+\end{figure}
+
+
+Such a crystal can be explored by literally putting some clock signal across its electrodes and seeing how it responds in a manner like this:  you take a time signal and let it flow into a crystal.  If the time signal is proper, the crystal will let it pass. If it's not, the crystal will block it.  In Fig.~\ref{xtal_expt}, we can see if the signal is passing by looking at the signal across points A and B in the circuit.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/xtal_expt.jpg}
+\caption{How we analyze the response of the quartz crystal.}
+\label{xtal_expt}
+\end{center}
+\end{figure}
+
+This author ran the experiment by actually taking a crystal into an electronics laboratory and testing it, as shown in Fig.~\ref{xtal_expt}. Here's how the test went. A device called a ``sine wave generator'' generated the time signal to be applied across the crystal. This signal will get the crystal vibrating and is analogous to pulling on a taut spring to get it to vibrate. The number of times per second (or the frequency) at which these voltage pulses were applied is what appears on the horizontal axis in the graph (in "Hz" or "times per second"). The left axis is the measured response (i.e. proportional to the movement) of the crystal due to the applied voltage (again, analogous to the distance a spring would move as it oscillates). 
+
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{Figs/xtal.png}
+\caption{The oscillation region of a quartz crystal.}
+\label{555_periods}
+\end{center}
+\end{figure}
+
+
+
+Here, a periodic voltage was applied to the crystal nearly four-million times per second, and just how the crystal responded is shown on the vertical axis.  What does the graph tell us?  The most noticeable feature is a big peak, telling us a region where the crystal likes to vibrate. The peak is where it vibrated the most (up to 0.001 inches or so). From the graph, we see that between 4,192,500 Hz and 4,193,250 Hz, the crystal really liked to vibrate. Less than 4,192,500 Hz or greater than 4,193,250 Hz, it didn't really like to vibrate. This is our first glimpse into how crystals are used to stabilize (electronic) clocks. They all have a definite region in which they like to vibrate. Outside of that region, they don't want to vibrate. 
+
+If you now attach a crystal to an electronic clock circuit (like the two described above), the crystal will be very particular, and force the clock to oscillate where it wants to vibrate (which is maybe not where the circuit might want to vibrate). In use, a crystal doesn't directly create an electrical vibration; it sits in a circuit that already vibrates, and regulates its vibration, to some ultra-degree of precision. Sometimes such circuits are called ``crystal disciplined'' circuits. In practice, the preferred vibration range of the crystal must be somewhat matched to the natural vibration rate of your clock circuit for this to work. If you can achieve this coarse matching, the crystal will do the rest, which may include making fine adjustments to your clock to better match the crystal.
+
+Let's look again at the above plot. How particular is the crystal? As mentioned, the key vibration region is between 4,192,500 Hz and 4,193,250 Hz. These numbers might not make much sense to you but notice two things. First, look at what happens to the crystal in this region. It essentially goes from not responding at all (10\% response or so), to fully responding, up to 100\% response. In this region, the crystal essentially goes from refusing to vibrate to really wanting to vibrate. Second, look what a small range this is. Although the numbers themselves are large, into the four-millions, the region of its response is only 750 Hz wide. Imagine that: 750 sitting on top of 4 million. f you need an analogy, it's like having \$4 million in your account and getting all upset if you spend \$750 of it. Who would care? So a crystal forces an electrical vibration to occur over a very small range, typically in the ``who would care'' size versus the frequency of the vibration itself.
+
+The number 4,192,500 Hz, doesn't have to change very much to get the crystal to push back in response. In fact 750 to 4,192,500 is about 1 in 6000. This is 0.02\%. In other words, if a crystal is asked to vibrate (by an electric circuit) in such a way that it must change its vibration rate by 0.02\%, it won't like it. A quartz clock can typically keep time to about 1 second/day.
+
+\subsection*{Atoms}
+
+Today's most precise clocks are disciplined with atoms, hence the name ``atomic clock.'' To understand atomic clocks, there are four key behaviors of atoms and one fact you must know.
+
+\subsubsection*{Behavior \#1}
+The first is that atoms are typically characterized by their energy levels, here denoted by $n=1$ and $n=2$. The energy levels are places an electron can reside (the black dot).
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Atomic/atom01.jpg}
+\caption{A simple two-level atom, with an electron in the lowest level.}
+\label{atom01}
+\end{center}
+\end{figure}
+\noindent Here, the electron is in the lower of the two energy levels, where it is stable, or in its ``ground state.''
+
+\subsubsection*{Behavior \#2}
+The second is that when atoms are bathed in light, if the energy of the light matches the gap between the atomic energy level ($\Delta$ below), the electron can ``jump'' to the higher energy level.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Atomic/atom02.jpg}
+\caption{Light tuned to the energy difference $\Delta$ will cause an electron to jump to the higher energy level (here $n=1\rightarrow n=2$).}
+\label{atom02}
+\end{center}
+\end{figure}
+\noindent Note also that when the electron jumps, it is because it ``absorbed'' the light, so the light will disappear. We will not see the light wriggling off to the right of the energy levels.
+
+
+\subsubsection*{Behavior \#3}
+When an electron is in the higher energy level it is unstable, and would like to drop back down to the lower energy level (to be stable again). When it does so, it emits light {\sl that generally goes in all directions}.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Atomic/atom03.jpg}
+\caption{An electron in a higher energy level will drop back down to the lower energy level, emitting light in any direction.}
+\label{atom03}
+\end{center}
+\end{figure}
+
+\subsubsection*{Behavior \#4}
+Lastly, when you see an atomic structure like the one below, know that the positions of the levels are one of the amongst the most immutable in all of nature.  Unless you took the atom into some specialized physics lab or to the surface of the Sun the energy-level gap, measured by $\Delta$ below, is absolutely fixed to among the most extreme limits known.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Atomic/delta.jpg}
+\caption{A simple two-level atom. The energy-level gap $\Delta$ is one of the most rigid structures known to humankind.}
+\label{atom01}
+\end{center}
+\end{figure}
+
+\pagebreak
+
+
+\section*{Lecture \#9: The atomic clock}
+
+We start by reviewing the ``four behaviors'' listed at the end of the last lecture, which are:
+\begin{enumerate}
+\item Atoms have energy levels that electrons may occupy.
+\item If the wavelength of the incoming light matches the energy gap between two energy levels, the electron can jump from the lower level to the higher level.
+\item An electron in a higher level can drop back down to the lower level, emitting light in the process {\sl which can go in any direction.}
+\item The atomic structure or difference between two energy levels is one of them most rigid structure known in all of nature.
+\end{enumerate}
+
+\subsection*{Mechanisms needed to grasp an atomic clock}
+
+\begin{enumerate}
+
+\item Light can be absorbed if its $\lambda=\Delta$. If so, then the electron can jump to an excited state, and eventually de-excite, emitting a photon in all directions.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/AtomicClock/sequence.jpg}
+\caption{}
+\label{atom01}
+\end{center}
+\end{figure}
+
+\item First a light source is ``calibrated'' to see how much power the source outputs, by letting the raw light fall onto a photodetector. This light level is \textcircled{1}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/AtomicClock/light_to_det.jpg}
+\caption{}
+\label{atom01}
+\end{center}
+\end{figure}
+
+\item The a glass cell of Rb-atoms is placed between the light and detector to measure the equilibrium absorption.  This light level will be lower and is level \textcircled{2}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/AtomicClock/light_into_rb.jpg}
+\caption{}
+\label{atom01}
+\end{center}
+\end{figure}
+
+\item Rb has a ``side level'' that is reachable by microwaves at about 6.8 Gigahertz
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/AtomicClock/side_level.jpg}
+\caption{}
+\label{atom01}
+\end{center}
+\end{figure}
+
+\item The basic atomic clock: Let the equilibrium absorption level happen, the irradiate the Rb atoms with microwaves. This light level is still lower and is level \textcircled{3}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/AtomicClock/microwaves.jpg}
+\caption{}
+\label{atom01}
+\end{center}
+\end{figure}
+
+\end{enumerate}
+
+\subsection*{Off and running}
+
+Now, we closely watch light level \textcircled{3}.  If it rises, it means something is off (likely the microwaves), so we adjust the microwaves until it again returns to level \textcircled{3} again.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{Images/AtomicClock/feedback.jpg}
+\caption{The basic atomic clock mechanism: Watch light-level \textcircled{3} and adjust the microwaves if it ever rises.}
+\label{atom01}
+\end{center}
+\end{figure}
+
+When reporting the time on the time indicator, we'll know the ``heartbeat'' can be tracked to the precise structure of (Rb) atoms.  For a state-of-the-art atomic clock, this will be good to a few nanoseconds per day.
+
+\pagebreak
+
+\section*{Lecture \#10: Einstein on time}
+
+No lecture series on time would be complete without at least mentioning what Albert Einstein had to say about time. He said plenty, but the author is just choosing his favorite: time dilation.   
+
+Einstein thought this: what would a clock read if you were watching it while it was {\sl moving} by you?
+
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.3]{Images/time_dilation/intro_move.png}
+\caption{What would a clock read if it was moving by you as you read it?}
+\label{}
+\end{center}
+\end{figure}
+
+
+\subsection*{A photon clock}
+
+First, let's imagine a moving clock, but a different type, that looks like this:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.3]{Images/time_dilation/mirror_clock.png}
+\caption{A clock made of two mirrors with a photon bouncing between them. The time it takes the photon to bounce back and forth is the clock period, here $\Delta T=D/c$.}
+\label{mirror_clock_stationary}
+\end{center}
+\end{figure}
+
+Here we have two mirrors (the black bars) and between them a photon (the gray dot) has been set off bouncing between them.  The photon continually reflects off of the inner (gray)  reflecting surfaces of the mirrors. These reflections send it up and down, up and down.  Think of it reaching Mirror \#1 and the ``tick'' and Mirror \#2 as the ``tock.'' (This is not as esoteric of a clock as you may think. Lasers work by bouncing photons between two mirrors.)
+
+Since the mirrors are set a distance $D$ apart, and light travels at a speed $c$, which is $300,000,000$ m/s, so the period of this clock would be
+\begin{equation}
+\Delta T_s=\frac{D}{c},
+\end{equation} 
+where we'll use $\Delta T_s$, with the ``s'' meaning ``stationary.'' As an example, if $D=1$ foot, then $\Delta T_s$ would be $1$ nanosecond.
+
+
+\subsection*{Get the clock moving} 
+Now, here's what Einstein said: what if the clock was moving? Einstein pictured what is shown here, assuming the clock is moving from right to left.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{Images/time_dilation/moving_mirror_clock.png}
+\caption{A clock made of two mirrors with a photon bouncing between them, and now moving toward the right.}
+\label{mirror_clock_moving}
+\end{center}
+\end{figure}
+
+If you look carefully at Fig.~\ref{mirror_clock_stationary} vs   Fig.~\ref{mirror_clock_moving}, you'll see the path the photon takes is now diagonal, so it has a longer path to take between mirrors.  This is the key to a moving clock: the photon has a longer path between mirrors vs. a stationary clock, this it's period will be longer, or the moving clock will {\sl run slower.} Here is the path of the photon in the moving clock, where we show the position of the photon and clock synchronized with the period of the moving clock $T_m$ (where the ``m'' stands for ``moving'').
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{Images/time_dilation/moving_Tm.png}
+\caption{The moving clock's period is now $T_m$ or with the ``m'' meaning ``moving.''}
+\label{moving_path}
+\end{center}
+\end{figure}
+
+\subsection*{Time dilation}
+
+If we compare Figs.~\ref{mirror_clock_stationary} and \ref{moving_path}, it's actually possible now to find a relationship between the stationary clock's period ($T_s$) and the moving clock's period ($T_m$).
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{Images/time_dilation/Tm_vs_Ts.png}
+\caption{Bringing the moving vs. stationary clock parameters together.}
+\label{Tm_vs_Ts}
+\end{center}
+\end{figure}
+
+If you look carefully, you'll see a right triangle at the core of it all. The stationary and moving clock action is in these two areas:
+
+\begin{itemize}
+\item The vertical leg is the distance the photon moves in a period of the stationary clock.
+
+\item The hypotenuse is that longer distance the photon moves because the clock is moving. 
+
+\end{itemize}
+The horizontal leg is the distance the moving clock moves as the photon moves during the period of the moving clock.  
+
+Since this forms a right triangle, we can use the Pythagorean Theorem ($c^2=a^2+b^2$) to tie these three distances together as in
+
+\begin{equation}
+(c\Delta T_m)^2=(v\Delta T_m)^2+(c\Delta T_s)^2.
+\end{equation}
+Solving for $T_m$ we'll get 
+
+\begin{equation}
+\Delta T_m=\frac{\Delta T_s}{\sqrt{1-\frac{v^2}{c^2}}}.
+\end{equation}
+And this is the relation that we are looking for: the link between $T_s$ and $T_m$.
+
+\subsection*{What does  this mean?}
+
+Let's look carefully at the result from the last section, which was:
+\begin{equation}
+\Delta T_m=\frac{\Delta T_s}{\sqrt{1-\frac{v^2}{c^2}}}.
+\end{equation}
+First, let's check to see what happens when $v=0$, or we keep the clock stationary. The equation would be
+\begin{equation}
+\Delta T_m=\frac{\Delta T_s}{\sqrt{1-\frac{0^2}{c^2}}},
+\end{equation}
+which reduces to 
+\begin{equation}
+\Delta T_m=\frac{\Delta T_s}{\sqrt{1}},
+\end{equation}
+or just
+\begin{equation}
+\Delta T_m=\Delta T_s.
+\end{equation}
+This is just a check that the algebra was all done properly: if the clock isn't moving, there's nothing special going on here. The moving period would be the same as the stationary period (since the clock isn't moving; there is no $\Delta T_m$).
+
+Ok, now let's say it {\sl was} moving at $v=20$ m/s (about 45 mph) and the period of the stationary clock was $1$ s, so $\Delta T_s=1$. Plugging this all into the equation we'd get
+\begin{equation}
+\Delta T_m=\frac{1}{\sqrt{1-\frac{20^2}{300000000^2}}}.
+\end{equation}
+If you put all of this into your calculator to get a result, you'll likely get $\Delta T_m=1$, which seems like nothing is happening as the moving clock's period is 1 s, the same as the stationary clock.   But, this can't be because
+
+\begin{equation}
+\frac{20^2}{300000000^2}
+\end{equation}
+is small, but not zero, so 
+\begin{equation}
+1-\frac{20^2}{300000000^2}
+\end{equation}
+has to be a bit less than 1.  Thus 
+\begin{equation}
+\Delta T_m=\frac{\Delta T_s}{\textrm{{\sl a number a bit less than 1}}},
+\end{equation}
+meaning $T_m$ must be a bit larger than $T_s$.  This means the moving clock's period is larger than the stationary clock's period, or the moving clock runs slower.
+
+\subsubsection*{Some numbers}
+
+Time dilation is a small effect for pedestrian speeds like 45 mph, so we have to look closer and use some computation that keeps track of more digits. We used this code in {\sl Mathematica}:
+
+\begin{verbatim}
+v = 20
+c = 300000000.
+dt = 1.
+dtp = dt/Sqrt[1 - v^2/c^2]
+SetPrecision[dtp, 50]
+\end{verbatim}
+which gave us
+\begin{equation}
+\Delta T_m=1.0000000000000022\cdot \Delta T_s.
+\end{equation}
+See those two 2s down there after the 14 zeros? That's Einstein's result. The moving clock's period is a tad larger than the $1$ second of the stationary clock. This means the moving clock runs slower. (This may be reminiscent of the small change to the period we saw when a clock was heated up a few lectures ago.)
+
+This is a result at 20 m/s. If we go up to 14,000 km/hr, which is the speed of a GPS satellite that has an atomic clock on-board, this  becomes
+\begin{equation}
+\Delta T_m=1.000000000084\cdot \Delta T_s,
+\end{equation}
+which only has 10 zeros after the decimal, before the 8 and 4 pop up.
+
+\subsection*{Einstein on time: the conclusion}
+
+So there's an Einstein twist for you. Work as you might on your clock, pendulum. Get temperature under control, etc. But if you set the clock off moving relative to you, and you sit and watch it move by you, it will run a little slower that you designed it to.  This is called ``time dilation.'' But, there's a more bizarre conclusion to this all too, and it doesn't just apply to strange photon clocks. It also applies to {\sl anything} that might have some periodicity to it, say like the human body that has a heartbeat and circadian rhythms, etc. 
+
+Say you had two people, A and B. If A was at rest watching B move by at 20 m/s, A would observe that B's heartbeat would be 1.0000000000000022 times longer than if B was at rest. Thus B's heart would appear to be beating slower. But {\sl everything} above B would appear slower: heartbeat, cell reproduction, breathing, thought process, chemical reactions, etc. In other words, in B's moving world  life would appear slower according to A. So, B would age slower than A.  Now keep in mind B wouldn't notice anything, but would actually think it's A that is slowing down (because if B is moving relative to A--according to A, then A is moving relative to B--according to B). This is all the nature of Einstein's ``twin paradox.''
+
+How is this possible? Where is the right triangle in someone's heart? Well, think of what a wall of the heart if made of: tissue? What's tissue made of? Molecules. Molecules? Atoms.  Atoms? Proton and electrons. Protons? Quarks. Quarks? At the moment quarks are thought to be fundamental and not made of anything else. But who knows, if we keep digging, maybe we'll find they're made of photons that bounce back and forth, just like the clock model above.
+
+
+
+
+
+
+\end{document}

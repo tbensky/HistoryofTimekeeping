@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 JAN 2026 09:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 JAN 2026 09:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -574,28 +574,74 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box66
 )
-No file hist_timekeeping.aux.
+(./hist_timekeeping.aux
+
+LaTeX Warning: Label `rc_circuit' multiply defined.
+
+
+LaTeX Warning: Label `1switch' multiply defined.
+
+
+LaTeX Warning: Label `1switch' multiply defined.
+
+
+LaTeX Warning: Label `1switch' multiply defined.
+
+
+LaTeX Warning: Label `1switch' multiply defined.
+
+
+LaTeX Warning: Label `1switch' multiply defined.
+
+
+LaTeX Warning: Label `1switch' multiply defined.
+
+
+LaTeX Warning: Label `555_periods' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+
+LaTeX Warning: Label `atom01' multiply defined.
+
+)
 \openout1 = `hist_timekeeping.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
 \scratchdimen=\dimen277
@@ -617,36 +663,47 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 27.
+
+(./hist_timekeeping.out) (./hist_timekeeping.out)
 \@outlinefile=\write4
 \openout4 = `hist_timekeeping.out'.
 
-<clocks_hist.png, id=7, 411.4572pt x 301.8477pt>
-File: clocks_hist.png Graphic file (type png)
-<use clocks_hist.png>
-Package pdftex.def Info: clocks_hist.png  used on input line 40.
-(pdftex.def)             Requested size: 308.59213pt x 226.38521pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<clocks_hist.png, id=14, 411.4572pt x 301.8477pt>
+File: clocks_hist.png Graphic file (type png)
+<use clocks_hist.png>
+Package pdftex.def Info: clocks_hist.png  used on input line 73.
+(pdftex.def)             Requested size: 308.59213pt x 226.38521pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 79.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 79.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 79.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 
+      [1
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.50 
+l.83 
       <./clocks_hist.png>]
-<earth_orbit.png, id=27, 361.35pt x 217.7736pt>
+<earth_orbit.png, id=30, 361.35pt x 217.7736pt>
 File: earth_orbit.png Graphic file (type png)
 <use earth_orbit.png>
-Package pdftex.def Info: earth_orbit.png  used on input line 61.
+Package pdftex.def Info: earth_orbit.png  used on input line 94.
 (pdftex.def)             Requested size: 252.94327pt x 152.44046pt.
 
 
@@ -655,24 +712,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.80 \end{enumerate}
-                    {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-supe
-r/cm-super-ts1.enc} <./earth_orbit.png>]
+l.113 \end{enumerate}
+                     {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-sup
+er/cm-super-ts1.enc} <./earth_orbit.png>]
 
 [3]
-
-LaTeX Warning: Reference `time_graph' on page 4 undefined on input line 108.
-
-
-LaTeX Warning: Reference `vandf' on page 4 undefined on input line 110.
-
-<vandf_ann.jpg, id=45, 1320.935pt x 1065.9825pt>
+<vandf_ann.jpg, id=50, 1320.935pt x 1065.9825pt>
 File: vandf_ann.jpg Graphic file (type jpg)
 <use vandf_ann.jpg>
-Package pdftex.def Info: vandf_ann.jpg  used on input line 114.
+Package pdftex.def Info: vandf_ann.jpg  used on input line 147.
 (pdftex.def)             Requested size: 396.28355pt x 319.79721pt.
 
-Underfull \hbox (badness 1163) in paragraph at lines 115--115
+Underfull \hbox (badness 1163) in paragraph at lines 148--148
 []\OT1/cmr/m/n/12 Figure 3: []A verge and fo-liot es-cape-ment. Video ver-sion 
 here []$\OT1/cmtt/m/n/12 https : / / youtu . be /
  []
@@ -684,28 +735,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4]
 
-LaTeX Warning: Reference `time_graph' on page 5 undefined on input line 143.
-
-
-
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.144 
+l.177 
        <./vandf_ann.jpg>]
-
-LaTeX Warning: Reference `pendulum' on page 6 undefined on input line 147.
-
-<Images/pendulum.jpg, id=66, 626.34pt x 566.115pt>
+<Images/pendulum.jpg, id=73, 626.34pt x 566.115pt>
 File: Images/pendulum.jpg Graphic file (type jpg)
 <use Images/pendulum.jpg>
-Package pdftex.def Info: Images/pendulum.jpg  used on input line 151.
+Package pdftex.def Info: Images/pendulum.jpg  used on input line 184.
 (pdftex.def)             Requested size: 187.90344pt x 169.8358pt.
-
-LaTeX Warning: Reference `pulley' on page 6 undefined on input line 169.
-
 
 
 [6
@@ -713,41 +754,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
+l.203 
        <./Images/pendulum.jpg>]
-<Images/pulley.png, id=79, 357.335pt x 312.16624pt>
+<Images/pulley.png, id=88, 357.335pt x 312.16624pt>
 File: Images/pulley.png Graphic file (type png)
 <use Images/pulley.png>
-Package pdftex.def Info: Images/pulley.png  used on input line 173.
+Package pdftex.def Info: Images/pulley.png  used on input line 206.
 (pdftex.def)             Requested size: 178.66705pt x 156.08273pt.
-
-
-LaTeX Warning: Reference `pulley_escape' on page 7 undefined on input line 179.
-
-
-
-LaTeX Warning: Reference `pulley_escape' on page 7 undefined on input line 179.
-
-
-
-LaTeX Warning: Reference `pulley_escape' on page 7 undefined on input line 179.
-
-
-<Images/pulley_escape.png, id=80, 691.58376pt x 447.6725pt>
+<Images/pulley_escape.png, id=92, 691.58376pt x 447.6725pt>
 File: Images/pulley_escape.png Graphic file (type png)
 <use Images/pulley_escape.png>
-Package pdftex.def Info: Images/pulley_escape.png  used on input line 183.
+Package pdftex.def Info: Images/pulley_escape.png  used on input line 216.
 (pdftex.def)             Requested size: 345.79103pt x 223.8357pt.
-
-LaTeX Warning: Reference `escape_mount' on page 7 undefined on input line 190.
-
-
-LaTeX Warning: Reference `swing' on page 7 undefined on input line 190.
-
-<Images/escape_mount.png, id=81, 215.80624pt x 610.28pt>
+<Images/escape_mount.png, id=95, 215.80624pt x 610.28pt>
 File: Images/escape_mount.png Graphic file (type png)
 <use Images/escape_mount.png>
-Package pdftex.def Info: Images/escape_mount.png  used on input line 194.
+Package pdftex.def Info: Images/escape_mount.png  used on input line 227.
 (pdftex.def)             Requested size: 64.74237pt x 183.0854pt.
 
 
@@ -756,18 +778,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 \end{figure}
+l.231 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 \end{figure}
+l.231 \end{figure}
                    <./Images/pulley.png> <./Images/pulley_escape.png>]
-<Images/swing.png, id=91, 401.5pt x 355.82938pt>
+<Images/swing.png, id=104, 401.5pt x 355.82938pt>
 File: Images/swing.png Graphic file (type png)
 <use Images/swing.png>
-Package pdftex.def Info: Images/swing.png  used on input line 204.
+Package pdftex.def Info: Images/swing.png  used on input line 237.
 (pdftex.def)             Requested size: 200.7495pt x 177.91425pt.
 
 
@@ -776,71 +798,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
+l.246 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
+l.246 
        <./Images/escape_mount.png> <./Images/swing.png>]
 
-LaTeX Warning: Reference `swing' on page 9 undefined on input line 216.
-
-
-
 [9]
-
-LaTeX Warning: Reference `time_graph' on page 10 undefined on input line 224.
-
-
 
 [10]
 
 [11]
 
-LaTeX Warning: Reference `time_graph' on page 12 undefined on input line 294.
-
-
-
 [12]
 
 [13]
-
-LaTeX Warning: Reference `time_graph_temp' on page 14 undefined on input line 3
-34.
-
-<clocks_hist_temp.png, id=141, 411.4572pt x 301.8477pt>
+<clocks_hist_temp.png, id=159, 411.4572pt x 301.8477pt>
 File: clocks_hist_temp.png Graphic file (type png)
 <use clocks_hist_temp.png>
-Package pdftex.def Info: clocks_hist_temp.png  used on input line 338.
+Package pdftex.def Info: clocks_hist_temp.png  used on input line 371.
 (pdftex.def)             Requested size: 205.72809pt x 150.92348pt.
-
-LaTeX Warning: Reference `brass_and_steel' on page 14 undefined on input line 3
-50.
-
-<brass_and_steel.png, id=142, 474.77374pt x 485.815pt>
+<brass_and_steel.png, id=161, 474.77374pt x 485.815pt>
 File: brass_and_steel.png Graphic file (type png)
 <use brass_and_steel.png>
-Package pdftex.def Info: brass_and_steel.png  used on input line 354.
+Package pdftex.def Info: brass_and_steel.png  used on input line 387.
 (pdftex.def)             Requested size: 142.43321pt x 145.74562pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `grid_iron_pend' on page 14 undefined on input line 36
-2.
-
-<gridiron_pendulum.png, id=143, 824.07875pt x 468.75125pt>
+<gridiron_pendulum.png, id=163, 824.07875pt x 468.75125pt>
 File: gridiron_pendulum.png Graphic file (type png)
 <use gridiron_pendulum.png>
-Package pdftex.def Info: gridiron_pendulum.png  used on input line 366.
+Package pdftex.def Info: gridiron_pendulum.png  used on input line 399.
 (pdftex.def)             Requested size: 412.03836pt x 234.37505pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `merc_pend' on page 14 undefined on input line 374.
 
 
 
@@ -849,12 +845,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.375 
+l.408 
        <./clocks_hist_temp.png>]
-<Mercury_pendulum.png, id=151, 281.05pt x 850.17625pt>
+<Mercury_pendulum.png, id=174, 281.05pt x 850.17625pt>
 File: Mercury_pendulum.png Graphic file (type png)
 <use Mercury_pendulum.png>
-Package pdftex.def Info: Mercury_pendulum.png  used on input line 378.
+Package pdftex.def Info: Mercury_pendulum.png  used on input line 411.
 (pdftex.def)             Requested size: 70.26231pt x 212.54353pt.
 
 
@@ -867,7 +863,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386 
+l.419 
        <./brass_and_steel.png>]
 
 [16
@@ -875,42 +871,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.388 \clearpage
+l.421 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.388 \clearpage
+l.421 \clearpage
                  <./gridiron_pendulum.png> <./Mercury_pendulum.png>]
-
-LaTeX Warning: Reference `time_graph' on page 17 undefined on input line 391.
-
-<Figs/7seg.png, id=168, 443.6575pt x 596.2275pt>
+<Figs/7seg.png, id=189, 443.6575pt x 596.2275pt>
 File: Figs/7seg.png Graphic file (type png)
 <use Figs/7seg.png>
-Package pdftex.def Info: Figs/7seg.png  used on input line 405.
+Package pdftex.def Info: Figs/7seg.png  used on input line 438.
 (pdftex.def)             Requested size: 88.72992pt x 119.24338pt.
-
-LaTeX Warning: Reference `rc_circuit' on page 17 undefined on input line 415.
-
-<Figs/rc_circuit01.jpg, id=169, 1119.18124pt x 808.01875pt>
+<Figs/rc_circuit01.jpg, id=191, 1119.18124pt x 808.01875pt>
 File: Figs/rc_circuit01.jpg Graphic file (type jpg)
 <use Figs/rc_circuit01.jpg>
-Package pdftex.def Info: Figs/rc_circuit01.jpg  used on input line 419.
+Package pdftex.def Info: Figs/rc_circuit01.jpg  used on input line 452.
 (pdftex.def)             Requested size: 279.79462pt x 202.0042pt.
 
 
 [17
 
  <./Figs/7seg.png>]
-
-LaTeX Warning: Reference `rc_circuit' on page 18 undefined on input line 425.
-
-<Figs/rc_graph.png, id=179, 700.6175pt x 447.6725pt>
+<Figs/rc_graph.png, id=203, 700.6175pt x 447.6725pt>
 File: Figs/rc_graph.png Graphic file (type png)
 <use Figs/rc_graph.png>
-Package pdftex.def Info: Figs/rc_graph.png  used on input line 430.
+Package pdftex.def Info: Figs/rc_graph.png  used on input line 463.
 (pdftex.def)             Requested size: 350.30789pt x 223.8357pt.
 
 
@@ -919,23 +906,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.437 
+l.470 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.437 
+l.470 
        <./Figs/rc_circuit01.jpg> <./Figs/rc_graph.png (PNG copy)>]
-<Figs/phet_rc_empty.png, id=186, 662.475pt x 505.89pt>
+<Figs/phet_rc_empty.png, id=210, 662.475pt x 505.89pt>
 File: Figs/phet_rc_empty.png Graphic file (type png)
 <use Figs/phet_rc_empty.png>
-Package pdftex.def Info: Figs/phet_rc_empty.png  used on input line 450.
+Package pdftex.def Info: Figs/phet_rc_empty.png  used on input line 483.
 (pdftex.def)             Requested size: 264.9853pt x 202.3524pt.
-<Figs/phet_rc_full.png, id=187, 679.53876pt x 474.77374pt>
+<Figs/phet_rc_full.png, id=211, 679.53876pt x 474.77374pt>
 File: Figs/phet_rc_full.png Graphic file (type png)
 <use Figs/phet_rc_full.png>
-Package pdftex.def Info: Figs/phet_rc_full.png  used on input line 459.
+Package pdftex.def Info: Figs/phet_rc_full.png  used on input line 492.
 (pdftex.def)             Requested size: 271.81068pt x 189.90613pt.
 
 
@@ -944,34 +931,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.464 
+l.497 
        <./Figs/phet_rc_empty.png>]
-
-LaTeX Warning: Reference `rc_discharge' on page 20 undefined on input line 465.
-
-
-<Figs/phet_rc_discharge01.png, id=196, 908.39375pt x 516.93124pt>
+<Figs/phet_rc_discharge01.png, id=220, 908.39375pt x 516.93124pt>
 File: Figs/phet_rc_discharge01.png Graphic file (type png)
 <use Figs/phet_rc_discharge01.png>
-Package pdftex.def Info: Figs/phet_rc_discharge01.png  used on input line 469.
+Package pdftex.def Info: Figs/phet_rc_discharge01.png  used on input line 502.
 (pdftex.def)             Requested size: 363.35106pt x 206.76883pt.
-
-LaTeX Warning: Reference `full_cap' on page 20 undefined on input line 470.
-
-
-LaTeX Warning: Reference `full_cap' on page 20 undefined on input line 470.
-
-
-LaTeX Warning: Reference `rc_multiple' on page 20 undefined on input line 475.
-
-
-LaTeX Warning: Reference `rc_multiple' on page 20 undefined on input line 475.
-
-<Figs/rc_multiple.png, id=197, 718.685pt x 459.7175pt>
+<Figs/rc_multiple.png, id=225, 718.685pt x 459.7175pt>
 File: Figs/rc_multiple.png Graphic file (type png)
 <use Figs/rc_multiple.png>
-Package pdftex.def Info: Figs/rc_multiple.png  used on input line 479.
+Package pdftex.def Info: Figs/rc_multiple.png  used on input line 512.
 (pdftex.def)             Requested size: 251.54352pt x 160.90353pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -982,18 +954,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.486 \begin{quote}
+l.519 \begin{quote}
                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.486 \begin{quote}
+l.519 \begin{quote}
                     <./Figs/phet_rc_full.png> <./Figs/phet_rc_discharge01.png>]
-<Figs/relay/relay.png, id=206, 1151.30125pt x 613.29124pt>
+<Figs/relay/relay.png, id=235, 1151.30125pt x 613.29124pt>
 File: Figs/relay/relay.png Graphic file (type png)
 <use Figs/relay/relay.png>
-Package pdftex.def Info: Figs/relay/relay.png  used on input line 511.
+Package pdftex.def Info: Figs/relay/relay.png  used on input line 544.
 (pdftex.def)             Requested size: 287.82462pt x 153.32243pt.
 
 
@@ -1002,13 +974,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 N
+l.549 N
        ote that the switch (the gray line) is like a level that rotates abou...
  <./Figs/rc_multiple.png (PNG copy)>]
-<Figs/neon_bulb.jpg, id=218, 807.015pt x 807.015pt>
+<Figs/neon_bulb.jpg, id=245, 807.015pt x 807.015pt>
 File: Figs/neon_bulb.jpg Graphic file (type jpg)
 <use Figs/neon_bulb.jpg>
-Package pdftex.def Info: Figs/neon_bulb.jpg  used on input line 529.
+Package pdftex.def Info: Figs/neon_bulb.jpg  used on input line 562.
 (pdftex.def)             Requested size: 161.40013pt x 161.40013pt.
 
 
@@ -1017,7 +989,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.534 T
+l.567 T
        o use it, simply place it across a capacitor in an RC circuit. When t...
  <./Figs/relay/relay.png>]
 
@@ -1026,22 +998,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.537 \newpage
+l.570 \newpage
                <./Figs/neon_bulb.jpg>]
-<Images/1switch.png, id=231, 600.2425pt x 369.38pt>
+<Images/1switch.png, id=258, 600.2425pt x 369.38pt>
 File: Images/1switch.png Graphic file (type png)
 <use Images/1switch.png>
-Package pdftex.def Info: Images/1switch.png  used on input line 551.
+Package pdftex.def Info: Images/1switch.png  used on input line 584.
 (pdftex.def)             Requested size: 180.07413pt x 110.81485pt.
-<Images/bulb_on.png, id=232, 650.43pt x 530.98375pt>
+<Images/bulb_on.png, id=259, 650.43pt x 530.98375pt>
 File: Images/bulb_on.png Graphic file (type png)
 <use Images/bulb_on.png>
-Package pdftex.def Info: Images/bulb_on.png  used on input line 559.
+Package pdftex.def Info: Images/bulb_on.png  used on input line 592.
 (pdftex.def)             Requested size: 195.1305pt x 159.29634pt.
-<Images/and.png, id=233, 695.59875pt x 375.4025pt>
+<Images/and.png, id=260, 695.59875pt x 375.4025pt>
 File: Images/and.png Graphic file (type png)
 <use Images/and.png>
-Package pdftex.def Info: Images/and.png  used on input line 568.
+Package pdftex.def Info: Images/and.png  used on input line 601.
 (pdftex.def)             Requested size: 208.68123pt x 112.62161pt.
 
 
@@ -1052,23 +1024,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.572 \end{figure}
+l.605 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.572 \end{figure}
+l.605 \end{figure}
                    <./Images/1switch.png> <./Images/bulb_on.png>]
-<Images/or.png, id=244, 733.74126pt x 475.7775pt>
+<Images/or.png, id=272, 733.74126pt x 475.7775pt>
 File: Images/or.png Graphic file (type png)
 <use Images/or.png>
-Package pdftex.def Info: Images/or.png  used on input line 576.
+Package pdftex.def Info: Images/or.png  used on input line 609.
 (pdftex.def)             Requested size: 220.12407pt x 142.73434pt.
-<Images/gates.jpg, id=245, 1204.5pt x 602.25pt>
+<Images/gates.jpg, id=273, 1204.5pt x 602.25pt>
 File: Images/gates.jpg Graphic file (type jpg)
 <use Images/gates.jpg>
-Package pdftex.def Info: Images/gates.jpg  used on input line 584.
+Package pdftex.def Info: Images/gates.jpg  used on input line 617.
 (pdftex.def)             Requested size: 301.12427pt x 150.56212pt.
 
 
@@ -1077,25 +1049,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.23})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.589 E
+l.622 E
        ach gate has its own logic, and can certainly be used by themselves. ...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.24})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.589 E
+l.622 E
        ach gate has its own logic, and can certainly be used by themselves. ...
  <./Images/and.png> <./Images/or.png>]
-<Images/adder.png, id=255, 2890.8pt x 1039.885pt>
+<Images/adder.png, id=282, 2890.8pt x 1039.885pt>
 File: Images/adder.png Graphic file (type png)
 <use Images/adder.png>
-Package pdftex.def Info: Images/adder.png  used on input line 592.
+Package pdftex.def Info: Images/adder.png  used on input line 625.
 (pdftex.def)             Requested size: 433.6013pt x 155.97601pt.
-<Figs/t_and_switch.jpg, id=256, 660.4675pt x 534.99875pt>
+<Figs/t_and_switch.jpg, id=283, 660.4675pt x 534.99875pt>
 File: Figs/t_and_switch.jpg Graphic file (type jpg)
 <use Figs/t_and_switch.jpg>
-Package pdftex.def Info: Figs/t_and_switch.jpg  used on input line 603.
+Package pdftex.def Info: Figs/t_and_switch.jpg  used on input line 636.
 (pdftex.def)             Requested size: 165.11647pt x 133.74936pt.
 
 
@@ -1104,25 +1076,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.25})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.608 H
+l.641 H
        ere the three terminals on the transistor roughly correspond like thi...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.608 H
+l.641 H
        ere the three terminals on the transistor roughly correspond like thi...
  <./Images/gates.jpg> <./Images/adder.png>]
-<Figs/transistor.png, id=264, 202.7575pt x 327.2225pt>
+<Figs/transistor.png, id=291, 202.7575pt x 327.2225pt>
 File: Figs/transistor.png Graphic file (type png)
 <use Figs/transistor.png>
-Package pdftex.def Info: Figs/transistor.png  used on input line 615.
+Package pdftex.def Info: Figs/transistor.png  used on input line 648.
 (pdftex.def)             Requested size: 101.3785pt x 163.61084pt.
-<Figs/and_trans.jpg, id=265, 1014.79124pt x 958.58125pt>
+<Figs/and_trans.jpg, id=292, 1014.79124pt x 958.58125pt>
 File: Figs/and_trans.jpg Graphic file (type jpg)
 <use Figs/and_trans.jpg>
-Package pdftex.def Info: Figs/and_trans.jpg  used on input line 625.
+Package pdftex.def Info: Figs/and_trans.jpg  used on input line 658.
 (pdftex.def)             Requested size: 202.95465pt x 191.71284pt.
 
 
@@ -1131,18 +1103,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.630 
+l.663 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.630 
+l.663 
        <./Figs/t_and_switch.jpg> <./Figs/transistor.png>]
-<Figs/555.png, id=274, 584.1825pt x 547.04375pt>
+<Figs/555.png, id=301, 584.1825pt x 547.04375pt>
 File: Figs/555.png Graphic file (type png)
 <use Figs/555.png>
-Package pdftex.def Info: Figs/555.png  used on input line 648.
+Package pdftex.def Info: Figs/555.png  used on input line 681.
 (pdftex.def)             Requested size: 116.83443pt x 109.4068pt.
 
 
@@ -1151,22 +1123,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.653 I
+l.686 I
        ts internals would look like this <./Figs/and_trans.jpg>]
-<Figs/555_internals.png, id=281, 803.0pt x 443.6575pt>
+<Figs/555_internals.png, id=308, 803.0pt x 443.6575pt>
 File: Figs/555_internals.png Graphic file (type png)
 <use Figs/555_internals.png>
-Package pdftex.def Info: Figs/555_internals.png  used on input line 656.
+Package pdftex.def Info: Figs/555_internals.png  used on input line 689.
 (pdftex.def)             Requested size: 481.80373pt x 266.19655pt.
 
-Overfull \hbox (4.82129pt too wide) in paragraph at lines 656--657
+Overfull \hbox (4.82129pt too wide) in paragraph at lines 689--690
  [] 
  []
 
-<Figs/transistor_symbol.png, id=282, 1053.9375pt x 1284.8pt>
+<Figs/transistor_symbol.png, id=309, 1053.9375pt x 1284.8pt>
 File: Figs/transistor_symbol.png Graphic file (type png)
 <use Figs/transistor_symbol.png>
-Package pdftex.def Info: Figs/transistor_symbol.png  used on input line 664.
+Package pdftex.def Info: Figs/transistor_symbol.png  used on input line 697.
 (pdftex.def)             Requested size: 105.39992pt x 128.48752pt.
 
 
@@ -1175,23 +1147,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.669 a
+l.702 a
        nd you can count dozens of them inside of the 555.   Here is an actua...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.669 a
+l.702 a
        nd you can count dozens of them inside of the 555.   Here is an actua...
  <./Figs/555.png> <./Figs/555_internals.png>]
-<Figs/555_circuit01.png, id=291, 1927.2pt x 1084.05pt>
+<Figs/555_circuit01.png, id=319, 1927.2pt x 1084.05pt>
 File: Figs/555_circuit01.png Graphic file (type png)
 <use Figs/555_circuit01.png>
-Package pdftex.def Info: Figs/555_circuit01.png  used on input line 672.
+Package pdftex.def Info: Figs/555_circuit01.png  used on input line 705.
 (pdftex.def)             Requested size: 481.79883pt x 271.01184pt.
 
-Overfull \hbox (4.81639pt too wide) in paragraph at lines 672--673
+Overfull \hbox (4.81639pt too wide) in paragraph at lines 705--706
  [] 
  []
 
@@ -1202,20 +1174,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.684 R
+l.717 R
        emember when assessing clocks we always have to compare one with anot...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.33})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.684 R
+l.717 R
        emember when assessing clocks we always have to compare one with anot...
  <./Figs/transistor_symbol.png> <./Figs/555_circuit01.png>]
-<Figs/555_20min_periods.png, id=300, 433.62pt x 289.08pt>
+<Figs/555_20min_periods.png, id=329, 433.62pt x 289.08pt>
 File: Figs/555_20min_periods.png Graphic file (type png)
 <use Figs/555_20min_periods.png>
-Package pdftex.def Info: Figs/555_20min_periods.png  used on input line 688.
+Package pdftex.def Info: Figs/555_20min_periods.png  used on input line 721.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
 
@@ -1224,18 +1196,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.34})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.708 
+l.741 
        <./Figs/555_20min_periods.png>]
 
 [32]
 File: clocks_hist.png Graphic file (type png)
 <use clocks_hist.png>
-Package pdftex.def Info: clocks_hist.png  used on input line 721.
+Package pdftex.def Info: clocks_hist.png  used on input line 754.
 (pdftex.def)             Requested size: 308.59213pt x 226.38521pt.
-
-
-LaTeX Warning: Reference `555_periods' on page 33 undefined on input line 736.
-
 
 
 [33
@@ -1245,28 +1213,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.35})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.737 
+l.770 
       ]
 
-LaTeX Warning: Reference `clock_hist_again' on page 34 undefined on input line 
-774.
-
-
-
 [34]
-<Images/xtal.png, id=326, 433.62pt x 455.7025pt>
+<Images/xtal.png, id=356, 433.62pt x 455.7025pt>
 File: Images/xtal.png Graphic file (type png)
 <use Images/xtal.png>
-Package pdftex.def Info: Images/xtal.png  used on input line 779.
+Package pdftex.def Info: Images/xtal.png  used on input line 812.
 (pdftex.def)             Requested size: 108.40472pt x 113.92534pt.
-
-
-LaTeX Warning: Reference `xtal_expt' on page 35 undefined on input line 785.
-
-<Images/xtal_expt.jpg, id=327, 1035.87pt x 835.12pt>
+<Images/xtal_expt.jpg, id=358, 1035.87pt x 835.12pt>
 File: Images/xtal_expt.jpg Graphic file (type jpg)
 <use Images/xtal_expt.jpg>
-Package pdftex.def Info: Images/xtal_expt.jpg  used on input line 789.
+Package pdftex.def Info: Images/xtal_expt.jpg  used on input line 822.
 (pdftex.def)             Requested size: 258.96686pt x 208.77948pt.
 
 
@@ -1275,15 +1234,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.36})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.794 
+l.827 
        <./Images/xtal.png>]
-
-LaTeX Warning: Reference `xtal_expt' on page 36 undefined on input line 795.
-
-<Figs/xtal.png, id=335, 449.68pt x 289.08pt>
+<Figs/xtal.png, id=368, 449.68pt x 289.08pt>
 File: Figs/xtal.png Graphic file (type png)
 <use Figs/xtal.png>
-Package pdftex.def Info: Figs/xtal.png  used on input line 801.
+Package pdftex.def Info: Figs/xtal.png  used on input line 834.
 (pdftex.def)             Requested size: 449.6789pt x 289.07928pt.
 
 
@@ -1292,7 +1248,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.37})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.806 
+l.839 
        <./Images/xtal_expt.jpg>]
 
 [37
@@ -1300,17 +1256,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.38})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.814 
+l.847 
        <./Figs/xtal.png>]
-<Atomic/atom01.jpg, id=348, 537.00626pt x 250.9375pt>
+<Atomic/atom01.jpg, id=379, 537.00626pt x 250.9375pt>
 File: Atomic/atom01.jpg Graphic file (type jpg)
 <use Atomic/atom01.jpg>
-Package pdftex.def Info: Atomic/atom01.jpg  used on input line 825.
+Package pdftex.def Info: Atomic/atom01.jpg  used on input line 858.
 (pdftex.def)             Requested size: 134.25124pt x 62.7342pt.
-<Atomic/atom02.jpg, id=349, 1454.43375pt x 325.215pt>
+<Atomic/atom02.jpg, id=380, 1454.43375pt x 325.215pt>
 File: Atomic/atom02.jpg Graphic file (type jpg)
 <use Atomic/atom02.jpg>
-Package pdftex.def Info: Atomic/atom02.jpg  used on input line 836.
+Package pdftex.def Info: Atomic/atom02.jpg  used on input line 869.
 (pdftex.def)             Requested size: 363.60754pt x 81.30354pt.
 
 
@@ -1319,18 +1275,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.39})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.841 \noindent
+l.874 \noindent
                 Note also that when the electron jumps, it is because it ``a...
  <./Atomic/atom01.jpg>]
-<Atomic/atom03.jpg, id=358, 745.78625pt x 632.3625pt>
+<Atomic/atom03.jpg, id=389, 745.78625pt x 632.3625pt>
 File: Atomic/atom03.jpg Graphic file (type jpg)
 <use Atomic/atom03.jpg>
-Package pdftex.def Info: Atomic/atom03.jpg  used on input line 848.
+Package pdftex.def Info: Atomic/atom03.jpg  used on input line 881.
 (pdftex.def)             Requested size: 186.4461pt x 158.09024pt.
-<Atomic/delta.jpg, id=359, 493.845pt x 226.8475pt>
+<Atomic/delta.jpg, id=390, 493.845pt x 226.8475pt>
 File: Atomic/delta.jpg Graphic file (type jpg)
 <use Atomic/delta.jpg>
-Package pdftex.def Info: Atomic/delta.jpg  used on input line 858.
+Package pdftex.def Info: Atomic/delta.jpg  used on input line 891.
 (pdftex.def)             Requested size: 123.46094pt x 56.71173pt.
 
 
@@ -1339,13 +1295,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.40})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.863 
+l.896 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.863 
+l.896 
        <./Atomic/atom02.jpg> <./Atomic/atom03.jpg>]
 
 [40
@@ -1353,19 +1309,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.42})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.865 
+l.898 
        <./Atomic/delta.jpg>]
-<Images/AtomicClock/sequence.jpg, id=373, 1665.22125pt x 590.205pt>
+<Images/AtomicClock/sequence.jpg, id=404, 1665.22125pt x 590.205pt>
 File: Images/AtomicClock/sequence.jpg Graphic file (type jpg)
 <use Images/AtomicClock/sequence.jpg>
-Package pdftex.def Info: Images/AtomicClock/sequence.jpg  used on input line 88
-4.
+Package pdftex.def Info: Images/AtomicClock/sequence.jpg  used on input line 91
+7.
 (pdftex.def)             Requested size: 416.30429pt x 147.55089pt.
-<Images/AtomicClock/light_to_det.jpg, id=374, 1399.2275pt x 501.875pt>
+<Images/AtomicClock/light_to_det.jpg, id=405, 1399.2275pt x 501.875pt>
 File: Images/AtomicClock/light_to_det.jpg Graphic file (type jpg)
 <use Images/AtomicClock/light_to_det.jpg>
 Package pdftex.def Info: Images/AtomicClock/light_to_det.jpg  used on input lin
-e 894.
+e 927.
 (pdftex.def)             Requested size: 349.80602pt x 125.46843pt.
 
 
@@ -1374,19 +1330,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.43})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.899 
+l.932 
        <./Images/AtomicClock/sequence.jpg>]
-<Images/AtomicClock/light_into_rb.jpg, id=388, 1353.055pt x 493.845pt>
+<Images/AtomicClock/light_into_rb.jpg, id=419, 1353.055pt x 493.845pt>
 File: Images/AtomicClock/light_into_rb.jpg Graphic file (type jpg)
 <use Images/AtomicClock/light_into_rb.jpg>
 Package pdftex.def Info: Images/AtomicClock/light_into_rb.jpg  used on input li
-ne 904.
+ne 937.
 (pdftex.def)             Requested size: 338.26292pt x 123.46094pt.
-<Images/AtomicClock/side_level.jpg, id=389, 1475.5125pt x 644.4075pt>
+<Images/AtomicClock/side_level.jpg, id=420, 1475.5125pt x 644.4075pt>
 File: Images/AtomicClock/side_level.jpg Graphic file (type jpg)
 <use Images/AtomicClock/side_level.jpg>
 Package pdftex.def Info: Images/AtomicClock/side_level.jpg  used on input line 
-914.
+947.
 (pdftex.def)             Requested size: 368.87723pt x 161.10147pt.
 
 
@@ -1395,32 +1351,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.44})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.921 
+l.954 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.45})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.921 
+l.954 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.46})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.921 
+l.954 
        <./Images/AtomicClock/light_to_det.jpg> <./Images/AtomicClock/light_into
 _rb.jpg> <./Images/AtomicClock/side_level.jpg>]
-<Images/AtomicClock/microwaves.jpg, id=399, 1484.54625pt x 964.60374pt>
+<Images/AtomicClock/microwaves.jpg, id=431, 1484.54625pt x 964.60374pt>
 File: Images/AtomicClock/microwaves.jpg Graphic file (type jpg)
 <use Images/AtomicClock/microwaves.jpg>
 Package pdftex.def Info: Images/AtomicClock/microwaves.jpg  used on input line 
-924.
+957.
 (pdftex.def)             Requested size: 371.13565pt x 241.15034pt.
-<Images/AtomicClock/feedback.jpg, id=400, 1498.59875pt x 1264.725pt>
+<Images/AtomicClock/feedback.jpg, id=432, 1498.59875pt x 1264.725pt>
 File: Images/AtomicClock/feedback.jpg Graphic file (type jpg)
 <use Images/AtomicClock/feedback.jpg>
-Package pdftex.def Info: Images/AtomicClock/feedback.jpg  used on input line 93
-8.
+Package pdftex.def Info: Images/AtomicClock/feedback.jpg  used on input line 97
+1.
 (pdftex.def)             Requested size: 374.64877pt x 316.18048pt.
 
 
@@ -1429,7 +1385,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.47})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.943 
+l.976 
        <./Images/AtomicClock/microwaves.jpg>]
 
 [44
@@ -1437,19 +1393,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.48})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.947 
+l.980 
        <./Images/AtomicClock/feedback.jpg>]
-<Images/time_dilation/intro_move.png, id=414, 671.50874pt x 596.2275pt>
+<Images/time_dilation/intro_move.png, id=445, 671.50874pt x 596.2275pt>
 File: Images/time_dilation/intro_move.png Graphic file (type png)
 <use Images/time_dilation/intro_move.png>
 Package pdftex.def Info: Images/time_dilation/intro_move.png  used on input lin
-e 958.
+e 991.
 (pdftex.def)             Requested size: 201.45418pt x 178.86963pt.
-<Images/time_dilation/mirror_clock.png, id=415, 721.69624pt x 577.15625pt>
+<Images/time_dilation/mirror_clock.png, id=446, 721.69624pt x 577.15625pt>
 File: Images/time_dilation/mirror_clock.png Graphic file (type png)
 <use Images/time_dilation/mirror_clock.png>
 Package pdftex.def Info: Images/time_dilation/mirror_clock.png  used on input l
-ine 971.
+ine 1004.
 (pdftex.def)             Requested size: 216.51054pt x 173.14821pt.
 
 
@@ -1458,43 +1414,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.49})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
-      
+l.1011 
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.50})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
-       <./Images/time_dilation/intro_move.png> <./Images/time_dilation/mirror_c
-lock.png>]
-<Images/time_dilation/moving_mirror_clock.png, id=426, 873.2625pt x 262.9825pt>
+l.1011 
+        <./Images/time_dilation/intro_move.png> <./Images/time_dilation/mirror_
+clock.png>]
+<Images/time_dilation/moving_mirror_clock.png, id=457, 873.2625pt x 262.9825pt>
 
 File: Images/time_dilation/moving_mirror_clock.png Graphic file (type png)
 <use Images/time_dilation/moving_mirror_clock.png>
 Package pdftex.def Info: Images/time_dilation/moving_mirror_clock.png  used on 
-input line 991.
+input line 1024.
 (pdftex.def)             Requested size: 523.96153pt x 157.7907pt.
 
-Overfull \hbox (46.9791pt too wide) in paragraph at lines 991--992
+Overfull \hbox (46.9791pt too wide) in paragraph at lines 1024--1025
  [] 
  []
 
-
-LaTeX Warning: Reference `mirror_clock_stationary' on page 46 undefined on inpu
-t line 997.
-
-
-LaTeX Warning: Reference `mirror_clock_moving' on page 46 undefined on input li
-ne 997.
-
-<Images/time_dilation/moving_Tm.png, id=427, 846.16125pt x 340.27126pt>
+<Images/time_dilation/moving_Tm.png, id=460, 846.16125pt x 340.27126pt>
 File: Images/time_dilation/moving_Tm.png Graphic file (type png)
 <use Images/time_dilation/moving_Tm.png>
 Package pdftex.def Info: Images/time_dilation/moving_Tm.png  used on input line
- 1002.
+ 1035.
 (pdftex.def)             Requested size: 507.70067pt x 204.16432pt.
 
-Overfull \hbox (30.71823pt too wide) in paragraph at lines 1002--1003
+Overfull \hbox (30.71823pt too wide) in paragraph at lines 1035--1036
  [] 
  []
 
@@ -1505,21 +1453,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.51})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1007 
+l.1040 
         <./Images/time_dilation/moving_mirror_clock.png>]
-
-LaTeX Warning: Reference `mirror_clock_stationary' on page 47 undefined on inpu
-t line 1010.
-
-
-LaTeX Warning: Reference `moving_path' on page 47 undefined on input line 1010.
-
-
-<Images/time_dilation/Tm_vs_Ts.png, id=437, 709.65125pt x 393.47pt>
+<Images/time_dilation/Tm_vs_Ts.png, id=473, 709.65125pt x 393.47pt>
 File: Images/time_dilation/Tm_vs_Ts.png Graphic file (type png)
 <use Images/time_dilation/Tm_vs_Ts.png>
 Package pdftex.def Info: Images/time_dilation/Tm_vs_Ts.png  used on input line 
-1014.
+1047.
 (pdftex.def)             Requested size: 425.79402pt x 236.0838pt.
 
 
@@ -1528,14 +1468,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.52})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1023 \item T
+l.1056 \item T
               he vertical leg is the distance the photon moves in a period o...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.53})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1023 \item T
+l.1056 \item T
               he vertical leg is the distance the photon moves in a period o...
  <./Images/time_dilation/moving_Tm.png> <./Images/time_dilation/Tm_vs_Ts.png>]
 
@@ -1550,26 +1490,17 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `hist_timekeeping.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `hist_timekeeping.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `hist_timekeeping.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37675 strings out of 473190
- 916334 string characters out of 5715801
- 1528202 words of memory out of 5000000
- 60378 multiletter control sequences out of 15000+600000
- 564296 words of font info for 54 fonts, out of 8000000 for 9000
+ 37688 strings out of 473190
+ 916647 string characters out of 5715801
+ 1533098 words of memory out of 5000000
+ 60386 multiletter control sequences out of 15000+600000
+ 565508 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,1031b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1586,10 +1517,10 @@ live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on hist_timekeeping.pdf (50 pages, 12546031 bytes).
+Output written on hist_timekeeping.pdf (51 pages, 12551310 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 201 named destinations out of 1000 (max. 500000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 200 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
